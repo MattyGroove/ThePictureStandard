@@ -1,0 +1,2454 @@
+BACKUP ~thepicturestandard\backup~
+AUTHOR ~Utopolyst (utopolyst@somewhere.net)~
+VERSION ~0.71~
+
+LANGUAGE ~English~
+         ~english~
+         ~thepicturestandard\translations\english\setup.tra~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Main]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @1000 // Vanilla (this text will be for the option itself)
+DESIGNATED 1000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @10 // Main (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Main\ABAZFULS.bmp~            ~override\ABAZFULS.bmp~
+COPY ~thepicturestandard\Main\ABAZHALS.bmp~            ~override\ABAZHALS.bmp~
+COPY ~thepicturestandard\Main\BALTHAZS.bmp~            ~override\BALTHAZS.bmp~
+
+COPY ~thepicturestandard\Main\GENDWRF.bmp~             ~override\GENDWRFM.bmp~
+COPY ~thepicturestandard\Main\GENDWRF.bmp~             ~override\GENDWRFS.bmp~
+
+COPY ~thepicturestandard\Main\GENMELF.bmp~             ~override\GENMELFM.bmp~
+COPY ~thepicturestandard\Main\GENMELF.bmp~             ~override\GENMELFS.bmp~
+
+COPY ~thepicturestandard\Main\GENMHLF.bmp~             ~override\GENMHLFM.bmp~
+COPY ~thepicturestandard\Main\GENMHLF.bmp~             ~override\GENMHLFS.bmp~
+
+COPY ~thepicturestandard\Main\GROMNIRS.bmp~            ~override\GROMNIRS.bmp~
+COPY ~thepicturestandard\Main\ILLISARS.bmp~            ~override\ILLISARS.bmp~
+
+COPY ~thepicturestandard\Main\MAN1.bmp~                ~override\MAN1M.bmp~
+COPY ~thepicturestandard\Main\MAN1.bmp~                ~override\MAN1S.bmp~
+
+COPY ~thepicturestandard\Main\MAN2.bmp~                ~override\MAN2M.bmp~
+COPY ~thepicturestandard\Main\MAN2.bmp~                ~override\MAN2S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY0.bmp~             ~override\MANLEY0M.bmp~
+COPY ~thepicturestandard\Main\MANLEY0.bmp~             ~override\MANLEY0S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY1.bmp~             ~override\MANLEY1M.bmp~
+COPY ~thepicturestandard\Main\MANLEY1.bmp~             ~override\MANLEY1S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY2.bmp~             ~override\MANLEY2M.bmp~
+COPY ~thepicturestandard\Main\MANLEY2.bmp~             ~override\MANLEY2S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY3.bmp~             ~override\MANLEY3M.bmp~
+COPY ~thepicturestandard\Main\MANLEY3.bmp~             ~override\MANLEY3S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY4.bmp~             ~override\MANLEY4M.bmp~
+COPY ~thepicturestandard\Main\MANLEY4.bmp~             ~override\MANLEY4S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY5.bmp~             ~override\MANLEY5M.bmp~
+COPY ~thepicturestandard\Main\MANLEY5.bmp~             ~override\MANLEY5S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY6.bmp~             ~override\MANLEY6M.bmp~
+COPY ~thepicturestandard\Main\MANLEY6.bmp~             ~override\MANLEY6S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY7.bmp~             ~override\MANLEY7M.bmp~
+COPY ~thepicturestandard\Main\MANLEY7.bmp~             ~override\MANLEY7S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY8.bmp~             ~override\MANLEY8M.bmp~
+COPY ~thepicturestandard\Main\MANLEY8.bmp~             ~override\MANLEY8S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY9.bmp~             ~override\MANLEY9M.bmp~
+COPY ~thepicturestandard\Main\MANLEY9.bmp~             ~override\MANLEY9S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEYX.bmp~             ~override\MANLEYXM.bmp~
+COPY ~thepicturestandard\Main\MANLEYX.bmp~             ~override\MANLEYXS.bmp~
+
+COPY ~thepicturestandard\Main\MEL_BADS.bmp~            ~override\MEL_BADS.bmp~
+COPY ~thepicturestandard\Main\MEL_GDS.bmp~             ~override\MEL_GDS.bmp~
+
+COPY ~thepicturestandard\Main\mgwika.bmp~              ~override\mgwikaL.bmp~
+COPY ~thepicturestandard\Main\mgwika.bmp~              ~override\mgwikaM.bmp~
+COPY ~thepicturestandard\Main\mgwika.bmp~              ~override\mgwikaS.bmp~
+
+COPY ~thepicturestandard\Main\NBODHI.bmp~              ~override\NBODHIS.bmp~
+COPY ~thepicturestandard\Main\NBODHI.bmp~              ~override\NBODHIM.bmp~
+
+COPY ~thepicturestandard\Main\NHORC.bmp~               ~override\NHORCM.bmp~
+COPY ~thepicturestandard\Main\NHORC.bmp~               ~override\NHORCS.bmp~
+
+COPY ~thepicturestandard\Main\NJON.bmp~                ~override\NJONM.bmp~
+COPY ~thepicturestandard\Main\NJON.bmp~                ~override\NJONS.bmp~
+
+COPY ~thepicturestandard\Main\ohhex.bmp~               ~override\ohhexl.bmp~
+COPY ~thepicturestandard\Main\ohhex.bmp~               ~override\ohhexm.bmp~
+COPY ~thepicturestandard\Main\ohhex.bmp~               ~override\ohhexs.bmp~
+
+COPY ~thepicturestandard\Main\ohhexx.bmp~              ~override\ohhexxl.bmp~
+COPY ~thepicturestandard\Main\ohhexx.bmp~              ~override\ohhexxm.bmp~
+COPY ~thepicturestandard\Main\ohhexx.bmp~              ~override\ohhexxs.bmp~
+
+COPY ~thepicturestandard\Main\PINKXANS.bmp~            ~override\PINKXANS.bmp~
+
+COPY ~thepicturestandard\Main\royo4s.bmp~              ~override\royo4s.bmp~
+
+COPY ~thepicturestandard\Main\SOLARS.bmp~              ~override\SOLARS.bmp~
+
+COPY ~thepicturestandard\Main\TESTPOR.bmp~             ~override\TESTPOR.bmp~
+
+COPY ~thepicturestandard\Main\TOBTEMP.bmp~             ~override\TOBTEMP.bmp~
+
+COPY ~thepicturestandard\Main\WOMAN1.bmp~              ~override\WOMAN1M.bmp~
+COPY ~thepicturestandard\Main\WOMAN1.bmp~              ~override\WOMAN1S.bmp~
+
+COPY ~thepicturestandard\Main\WOMAN2.bmp~              ~override\WOMAN2M.bmp~
+COPY ~thepicturestandard\Main\WOMAN2.bmp~              ~override\WOMAN2S.bmp~
+
+COPY ~thepicturestandard\Main\YAGASHRS.bmp~            ~override\YAGASHRS.bmp~
+
+COPY ~thepicturestandard\Main\YANNER1.bmp~             ~override\YANNER1L.bmp~
+COPY ~thepicturestandard\Main\YANNER1.bmp~             ~override\YANNER1M.bmp~
+COPY ~thepicturestandard\Main\YANNER1.bmp~             ~override\YANNER1S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER2.bmp~             ~override\YANNER2L.bmp~
+COPY ~thepicturestandard\Main\YANNER2.bmp~             ~override\YANNER2M.bmp~
+COPY ~thepicturestandard\Main\YANNER2.bmp~             ~override\YANNER2S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER3.bmp~             ~override\YANNER3L.bmp~
+COPY ~thepicturestandard\Main\YANNER3.bmp~             ~override\YANNER3M.bmp~
+COPY ~thepicturestandard\Main\YANNER3.bmp~             ~override\YANNER3S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER4.bmp~             ~override\YANNER4L.bmp~
+COPY ~thepicturestandard\Main\YANNER4.bmp~             ~override\YANNER4M.bmp~
+COPY ~thepicturestandard\Main\YANNER4.bmp~             ~override\YANNER4S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER5.bmp~             ~override\YANNER5L.bmp~
+COPY ~thepicturestandard\Main\YANNER5.bmp~             ~override\YANNER5M.bmp~
+COPY ~thepicturestandard\Main\YANNER5.bmp~             ~override\YANNER5S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER6.bmp~             ~override\YANNER6L.bmp~
+COPY ~thepicturestandard\Main\YANNER6.bmp~             ~override\YANNER6M.bmp~
+COPY ~thepicturestandard\Main\YANNER6.bmp~             ~override\YANNER6S.bmp~
+
+
+BEGIN @1500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 1500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @10 // Main (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AMain\ABAZFULS.bmp~           ~override\ABAZFULS.bmp~
+COPY ~thepicturestandard\AMain\ABAZHALS.bmp~           ~override\ABAZHALS.bmp~
+COPY ~thepicturestandard\Main\BALTHAZS.bmp~            ~override\BALTHAZS.bmp~
+
+COPY ~thepicturestandard\Main\GENDWRF.bmp~             ~override\GENDWRFM.bmp~
+COPY ~thepicturestandard\Main\GENDWRF.bmp~             ~override\GENDWRFS.bmp~
+
+COPY ~thepicturestandard\Main\GENMELF.bmp~             ~override\GENMELFM.bmp~
+COPY ~thepicturestandard\Main\GENMELF.bmp~             ~override\GENMELFS.bmp~
+
+COPY ~thepicturestandard\Main\GENMHLF.bmp~             ~override\GENMHLFM.bmp~
+COPY ~thepicturestandard\Main\GENMHLF.bmp~             ~override\GENMHLFS.bmp~
+
+COPY ~thepicturestandard\AMain\GROMNIRS.bmp~           ~override\GROMNIRS.bmp~
+COPY ~thepicturestandard\AMain\ILLISARS.bmp~           ~override\ILLISARS.bmp~
+
+COPY ~thepicturestandard\Main\MAN1.bmp~                ~override\MAN1M.bmp~
+COPY ~thepicturestandard\Main\MAN1.bmp~                ~override\MAN1S.bmp~
+
+COPY ~thepicturestandard\Main\MAN2.bmp~                ~override\MAN2M.bmp~
+COPY ~thepicturestandard\Main\MAN2.bmp~                ~override\MAN2S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY0.bmp~             ~override\MANLEY0M.bmp~
+COPY ~thepicturestandard\Main\MANLEY0.bmp~             ~override\MANLEY0S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY1.bmp~             ~override\MANLEY1M.bmp~
+COPY ~thepicturestandard\Main\MANLEY1.bmp~             ~override\MANLEY1S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY2.bmp~             ~override\MANLEY2M.bmp~
+COPY ~thepicturestandard\Main\MANLEY2.bmp~             ~override\MANLEY2S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY3.bmp~             ~override\MANLEY3M.bmp~
+COPY ~thepicturestandard\Main\MANLEY3.bmp~             ~override\MANLEY3S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY4.bmp~             ~override\MANLEY4M.bmp~
+COPY ~thepicturestandard\Main\MANLEY4.bmp~             ~override\MANLEY4S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY5.bmp~             ~override\MANLEY5M.bmp~
+COPY ~thepicturestandard\Main\MANLEY5.bmp~             ~override\MANLEY5S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY6.bmp~             ~override\MANLEY6M.bmp~
+COPY ~thepicturestandard\Main\MANLEY6.bmp~             ~override\MANLEY6S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY7.bmp~             ~override\MANLEY7M.bmp~
+COPY ~thepicturestandard\Main\MANLEY7.bmp~             ~override\MANLEY7S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY8.bmp~             ~override\MANLEY8M.bmp~
+COPY ~thepicturestandard\Main\MANLEY8.bmp~             ~override\MANLEY8S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEY9.bmp~             ~override\MANLEY9M.bmp~
+COPY ~thepicturestandard\Main\MANLEY9.bmp~             ~override\MANLEY9S.bmp~
+
+COPY ~thepicturestandard\Main\MANLEYX.bmp~             ~override\MANLEYXM.bmp~
+COPY ~thepicturestandard\Main\MANLEYX.bmp~             ~override\MANLEYXS.bmp~
+
+COPY ~thepicturestandard\AMain\MEL_BADS.bmp~           ~override\MEL_BADS.bmp~
+COPY ~thepicturestandard\AMain\MEL_GDS.bmp~            ~override\MEL_GDS.bmp~
+
+COPY ~thepicturestandard\Main\mgwika.bmp~              ~override\mgwikaL.bmp~
+COPY ~thepicturestandard\Main\mgwika.bmp~              ~override\mgwikaM.bmp~
+COPY ~thepicturestandard\Main\mgwika.bmp~              ~override\mgwikaS.bmp~
+
+COPY ~thepicturestandard\AMain\NBODHI.bmp~             ~override\NBODHIS.bmp~
+COPY ~thepicturestandard\AMain\NBODHI.bmp~             ~override\NBODHIM.bmp~
+
+COPY ~thepicturestandard\Main\NHORC.bmp~               ~override\NHORCM.bmp~
+COPY ~thepicturestandard\Main\NHORC.bmp~               ~override\NHORCS.bmp~
+
+COPY ~thepicturestandard\Main\NJON.bmp~                ~override\NJONM.bmp~
+COPY ~thepicturestandard\Main\NJON.bmp~                ~override\NJONS.bmp~
+
+COPY ~thepicturestandard\Main\ohhex.bmp~               ~override\ohhexl.bmp~
+COPY ~thepicturestandard\Main\ohhex.bmp~               ~override\ohhexm.bmp~
+COPY ~thepicturestandard\Main\ohhex.bmp~               ~override\ohhexs.bmp~
+
+COPY ~thepicturestandard\Main\ohhexx.bmp~              ~override\ohhexxl.bmp~
+COPY ~thepicturestandard\Main\ohhexx.bmp~              ~override\ohhexxm.bmp~
+COPY ~thepicturestandard\Main\ohhexx.bmp~              ~override\ohhexxs.bmp~
+
+COPY ~thepicturestandard\Main\PINKXANS.bmp~            ~override\PINKXANS.bmp~
+
+COPY ~thepicturestandard\Main\royo4s.bmp~              ~override\royo4s.bmp~
+
+COPY ~thepicturestandard\AMain\SENDAIS.bmp~            ~override\SENDAIS.bmp~
+COPY ~thepicturestandard\AMain\SOLARS.bmp~             ~override\SOLARS.bmp~
+
+COPY ~thepicturestandard\Main\TESTPOR.bmp~             ~override\TESTPOR.bmp~
+
+COPY ~thepicturestandard\Main\TOBTEMP.bmp~             ~override\TOBTEMP.bmp~
+
+COPY ~thepicturestandard\Main\WOMAN1.bmp~              ~override\WOMAN1M.bmp~
+COPY ~thepicturestandard\Main\WOMAN1.bmp~              ~override\WOMAN1S.bmp~
+
+COPY ~thepicturestandard\Main\WOMAN2.bmp~              ~override\WOMAN2M.bmp~
+COPY ~thepicturestandard\Main\WOMAN2.bmp~              ~override\WOMAN2S.bmp~
+
+COPY ~thepicturestandard\AMain\YAGASHRS.bmp~           ~override\YAGASHRS.bmp~
+
+COPY ~thepicturestandard\Main\YANNER1.bmp~             ~override\YANNER1L.bmp~
+COPY ~thepicturestandard\Main\YANNER1.bmp~             ~override\YANNER1M.bmp~
+COPY ~thepicturestandard\Main\YANNER1.bmp~             ~override\YANNER1S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER2.bmp~             ~override\YANNER2L.bmp~
+COPY ~thepicturestandard\Main\YANNER2.bmp~             ~override\YANNER2M.bmp~
+COPY ~thepicturestandard\Main\YANNER2.bmp~             ~override\YANNER2S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER3.bmp~             ~override\YANNER3L.bmp~
+COPY ~thepicturestandard\Main\YANNER3.bmp~             ~override\YANNER3M.bmp~
+COPY ~thepicturestandard\Main\YANNER3.bmp~             ~override\YANNER3S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER4.bmp~             ~override\YANNER4L.bmp~
+COPY ~thepicturestandard\Main\YANNER4.bmp~             ~override\YANNER4M.bmp~
+COPY ~thepicturestandard\Main\YANNER4.bmp~             ~override\YANNER4S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER5.bmp~             ~override\YANNER5L.bmp~
+COPY ~thepicturestandard\Main\YANNER5.bmp~             ~override\YANNER5M.bmp~
+COPY ~thepicturestandard\Main\YANNER5.bmp~             ~override\YANNER5S.bmp~
+
+COPY ~thepicturestandard\Main\YANNER6.bmp~             ~override\YANNER6L.bmp~
+COPY ~thepicturestandard\Main\YANNER6.bmp~             ~override\YANNER6M.bmp~
+COPY ~thepicturestandard\Main\YANNER6.bmp~             ~override\YANNER6S.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Followers]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] VariantA
+//  3] VariantB
+
+
+BEGIN @2000 // Vanilla (this text will be for the option itself)
+DESIGNATED 2000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @20 // Followers (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\AJANTIS.bmp~        ~override\AJANTISL.bmp~
+COPY ~thepicturestandard\Followers\AJANTIS.bmp~        ~override\AJANTISM.bmp~
+COPY ~thepicturestandard\Followers\AJANTIS.bmp~        ~override\AJANTISS.bmp~
+
+COPY ~thepicturestandard\Followers\ALORA.bmp~          ~override\ALORAL.bmp~
+COPY ~thepicturestandard\Followers\ALORA.bmp~          ~override\ALORAM.bmp~
+COPY ~thepicturestandard\Followers\ALORA.bmp~          ~override\ALORAS.bmp~
+
+COPY ~thepicturestandard\Followers\BAELOTH.bmp~        ~override\BAELOTHL.bmp~
+COPY ~thepicturestandard\Followers\BAELOTH.bmp~        ~override\BAELOTHM.bmp~
+COPY ~thepicturestandard\Followers\BAELOTH.bmp~        ~override\BAELOTHS.bmp~
+
+COPY ~thepicturestandard\Followers\BRANWE.bmp~         ~override\BRANWEL.bmp~
+COPY ~thepicturestandard\Followers\BRANWE.bmp~         ~override\BRANWEM.bmp~
+COPY ~thepicturestandard\Followers\BRANWE.bmp~         ~override\BRANWES.bmp~
+
+COPY ~thepicturestandard\Followers\CORAN.bmp~          ~override\CORANL.bmp~
+COPY ~thepicturestandard\Followers\CORAN.bmp~          ~override\CORANM.bmp~
+COPY ~thepicturestandard\Followers\CORAN.bmp~          ~override\CORANS.bmp~
+
+COPY ~thepicturestandard\Followers\DORN.bmp~           ~override\DORNL.bmp~
+COPY ~thepicturestandard\Followers\DORN.bmp~           ~override\DORNM.bmp~
+COPY ~thepicturestandard\Followers\DORN.bmp~           ~override\DORNS.bmp~
+
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIL.bmp~
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIM.bmp~
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIS.bmp~
+
+COPY ~thepicturestandard\Followers\EDWIN.bmp~          ~override\EDWINL.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~          ~override\EDWINM.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~          ~override\EDWINS.bmp~
+
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHL.bmp~
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHM.bmp~
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHS.bmp~
+
+COPY ~thepicturestandard\Followers\FALDORN.bmp~        ~override\FALDORNL.bmp~
+COPY ~thepicturestandard\Followers\FALDORN.bmp~        ~override\FALDORNM.bmp~
+COPY ~thepicturestandard\Followers\FALDORN.bmp~        ~override\FALDORNS.bmp~
+
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKL.bmp~
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKM.bmp~
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKS.bmp~
+
+COPY ~thepicturestandard\Followers\IMOEN.bmp~          ~override\IMOENL.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~          ~override\IMOENM.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~          ~override\IMOENS.bmp~
+
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~        ~override\JAHEIRAL.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~        ~override\JAHEIRAM.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~        ~override\JAHEIRAS.bmp~
+
+COPY ~thepicturestandard\Followers\KAGAIN.bmp~         ~override\KAGAINL.bmp~
+COPY ~thepicturestandard\Followers\KAGAIN.bmp~         ~override\KAGAINM.bmp~
+COPY ~thepicturestandard\Followers\KAGAIN.bmp~         ~override\KAGAINS.bmp~
+
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDL.bmp~
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDM.bmp~
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDS.bmp~
+
+COPY ~thepicturestandard\Followers\KIVAN.bmp~          ~override\KIVANL.bmp~
+COPY ~thepicturestandard\Followers\KIVAN.bmp~          ~override\KIVANM.bmp~
+COPY ~thepicturestandard\Followers\KIVAN.bmp~          ~override\KIVANS.bmp~
+
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCS.bmp~
+
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARL.bmp~
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARM.bmp~
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARS.bmp~
+
+COPY ~thepicturestandard\Followers\NAERIE.bmp~         ~override\NAERIEL.bmp~
+COPY ~thepicturestandard\Followers\NAERIE.bmp~         ~override\NAERIEM.bmp~
+COPY ~thepicturestandard\Followers\NAERIE.bmp~         ~override\NAERIES.bmp~
+
+COPY ~thepicturestandard\Followers\NANOMEN.bmp~        ~override\NANOMENL.bmp~
+COPY ~thepicturestandard\Followers\NANOMEN.bmp~        ~override\NANOMENM.bmp~
+COPY ~thepicturestandard\Followers\NANOMEN.bmp~        ~override\NANOMENS.bmp~
+
+COPY ~thepicturestandard\Followers\NCERND.bmp~         ~override\NCERNDL.bmp~
+COPY ~thepicturestandard\Followers\NCERND.bmp~         ~override\NCERNDM.bmp~
+COPY ~thepicturestandard\Followers\NCERND.bmp~         ~override\NCERNDS.bmp~
+
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~         ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~         ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~         ~override\NEDWINS.bmp~
+
+COPY ~thepicturestandard\Followers\NEERA.bmp~          ~override\NEERAL.bmp~
+COPY ~thepicturestandard\Followers\NEERA.bmp~          ~override\NEERAM.bmp~
+COPY ~thepicturestandard\Followers\NEERA.bmp~          ~override\NEERAS.bmp~
+
+COPY ~thepicturestandard\Followers\NHAER.bmp~          ~override\NHAERL.bmp~
+COPY ~thepicturestandard\Followers\NHAER.bmp~          ~override\NHAERM.bmp~
+COPY ~thepicturestandard\Followers\NHAER.bmp~          ~override\NHAERS.bmp~
+
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~         ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~         ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~         ~override\NIMOENS.bmp~
+
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~        ~override\NJAHEIRL.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~        ~override\NJAHEIRM.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~        ~override\NJAHEIRS.bmp~
+
+COPY ~thepicturestandard\Followers\NJAN.bmp~           ~override\NJANL.bmp~
+COPY ~thepicturestandard\Followers\NJAN.bmp~           ~override\NJANM.bmp~
+COPY ~thepicturestandard\Followers\NJAN.bmp~           ~override\NJANS.bmp~
+
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORL.bmp~
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORM.bmp~
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORS.bmp~
+
+COPY ~thepicturestandard\Followers\NKORGAN.bmp~        ~override\NKORGANL.bmp~
+COPY ~thepicturestandard\Followers\NKORGAN.bmp~        ~override\NKORGANM.bmp~
+COPY ~thepicturestandard\Followers\NKORGAN.bmp~        ~override\NKORGANS.bmp~
+
+COPY ~thepicturestandard\Followers\NMAZZY.bmp~         ~override\NMAZZYL.bmp~
+COPY ~thepicturestandard\Followers\NMAZZY.bmp~         ~override\NMAZZYM.bmp~
+COPY ~thepicturestandard\Followers\NMAZZY.bmp~         ~override\NMAZZYS.bmp~
+
+COPY ~thepicturestandard\Followers\NMINSC.bmp~         ~override\NMINSCL.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~         ~override\NMINSCM.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~         ~override\NMINSCS.bmp~
+
+COPY ~thepicturestandard\Followers\NNALIA.bmp~         ~override\NNALIAL.bmp~
+COPY ~thepicturestandard\Followers\NNALIA.bmp~         ~override\NNALIAM.bmp~
+COPY ~thepicturestandard\Followers\NNALIA.bmp~         ~override\NNALIAS.bmp~
+
+COPY ~thepicturestandard\Followers\NVALYGA.bmp~        ~override\NVALYGAL.bmp~
+COPY ~thepicturestandard\Followers\NVALYGA.bmp~        ~override\NVALYGAM.bmp~
+COPY ~thepicturestandard\Followers\NVALYGA.bmp~        ~override\NVALYGAS.bmp~
+
+COPY ~thepicturestandard\Followers\NVICON.bmp~         ~override\NVICONL.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~         ~override\NVICONM.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~         ~override\NVICONS.bmp~
+
+COPY ~thepicturestandard\Followers\NYOSHIM.bmp~        ~override\NYOSHIML.bmp~
+COPY ~thepicturestandard\Followers\NYOSHIM.bmp~        ~override\NYOSHIMM.bmp~
+COPY ~thepicturestandard\Followers\NYOSHIM.bmp~        ~override\NYOSHIMS.bmp~
+
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLEL.bmp~
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLEM.bmp~
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLES.bmp~
+
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADL.bmp~
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADM.bmp~
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADS.bmp~
+
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAL.bmp~
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAM.bmp~
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAS.bmp~
+
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKL.bmp~
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKM.bmp~
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKS.bmp~
+
+COPY ~thepicturestandard\Followers\SHARTEL.bmp~        ~override\SHARTELL.bmp~
+COPY ~thepicturestandard\Followers\SHARTEL.bmp~        ~override\SHARTELM.bmp~
+COPY ~thepicturestandard\Followers\SHARTEL.bmp~        ~override\SHARTELS.bmp~
+
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIEL.bmp~
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIEM.bmp~
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIES.bmp~
+
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXL.bmp~
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXM.bmp~
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXS.bmp~
+
+COPY ~thepicturestandard\Followers\VICONIA.bmp~        ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~        ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~        ~override\VICONIAS.bmp~
+
+COPY ~thepicturestandard\Followers\WILSON.bmp~         ~override\WILSONL.bmp~
+COPY ~thepicturestandard\Followers\WILSON.bmp~         ~override\WILSONM.bmp~
+COPY ~thepicturestandard\Followers\WILSON.bmp~         ~override\WILSONS.bmp~
+
+COPY ~thepicturestandard\Followers\XAN.bmp~            ~override\XANL.bmp~
+COPY ~thepicturestandard\Followers\XAN.bmp~            ~override\XANM.bmp~
+COPY ~thepicturestandard\Followers\XAN.bmp~            ~override\XANS.bmp~
+
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARL.bmp~
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARM.bmp~
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARS.bmp~
+
+COPY ~thepicturestandard\Followers\YESLICK.bmp~        ~override\YESLICKL.bmp~
+COPY ~thepicturestandard\Followers\YESLICK.bmp~        ~override\YESLICKM.bmp~
+COPY ~thepicturestandard\Followers\YESLICK.bmp~        ~override\YESLICKS.bmp~
+
+
+BEGIN @2300 // VariantA (this text will be for the option itself)
+DESIGNATED 2300 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @20 // Followers (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\AJANTIS.bmp~             ~override\AJANTISL.bmp~
+COPY ~thepicturestandard\AUF\AJANTIS.bmp~             ~override\AJANTISM.bmp~
+COPY ~thepicturestandard\AUF\AJANTIS.bmp~             ~override\AJANTISS.bmp~
+
+COPY ~thepicturestandard\AUF\ALORA.bmp~                ~override\ALORAL.bmp~
+COPY ~thepicturestandard\AUF\ALORA.bmp~                ~override\ALORAM.bmp~
+COPY ~thepicturestandard\AUF\ALORA.bmp~                ~override\ALORAS.bmp~
+
+COPY ~thepicturestandard\AUF\BAELOTH.bmp~              ~override\BAELOTHL.bmp~
+COPY ~thepicturestandard\AUF\BAELOTH.bmp~              ~override\BAELOTHM.bmp~
+COPY ~thepicturestandard\AUF\BAELOTH.bmp~              ~override\BAELOTHS.bmp~
+
+COPY ~thepicturestandard\AUF\BRANWE.bmp~               ~override\BRANWEL.bmp~
+COPY ~thepicturestandard\AUF\BRANWE.bmp~               ~override\BRANWEM.bmp~
+COPY ~thepicturestandard\AUF\BRANWES.bmp~              ~override\BRANWES.bmp~
+
+COPY ~thepicturestandard\AUF\CORAN.bmp~                ~override\CORANL.bmp~
+COPY ~thepicturestandard\AUF\CORAN.bmp~                ~override\CORANM.bmp~
+COPY ~thepicturestandard\AUF\CORAN.bmp~                ~override\CORANS.bmp~
+
+COPY ~thepicturestandard\AUF\DORNL.bmp~                ~override\DORNL.bmp~
+COPY ~thepicturestandard\AUF\DORN.bmp~                 ~override\DORNM.bmp~
+COPY ~thepicturestandard\AUF\DORN.bmp~                 ~override\DORNS.bmp~
+
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIL.bmp~
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIM.bmp~
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIS.bmp~
+
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\EDWINL.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\EDWINM.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\EDWINS.bmp~
+
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHL.bmp~
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHM.bmp~
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHS.bmp~
+
+COPY ~thepicturestandard\AUF\FALDORN.bmp~              ~override\FALDORNL.bmp~
+COPY ~thepicturestandard\AUF\FALDORN.bmp~              ~override\FALDORNM.bmp~
+COPY ~thepicturestandard\AUF\FALDORNS.bmp~             ~override\FALDORNS.bmp~
+
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKL.bmp~
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKM.bmp~
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKS.bmp~
+
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                ~override\IMOENL.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                ~override\IMOENM.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                ~override\IMOENS.bmp~
+
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\JAHEIRAL.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\JAHEIRAM.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\JAHEIRAS.bmp~
+
+COPY ~thepicturestandard\AUF\KAGAINL.bmp~              ~override\KAGAINL.bmp~
+COPY ~thepicturestandard\AUF\KAGAIN.bmp~               ~override\KAGAINM.bmp~
+COPY ~thepicturestandard\AUF\KAGAIN.bmp~               ~override\KAGAINS.bmp~
+
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDL.bmp~
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDM.bmp~
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDS.bmp~
+
+COPY ~thepicturestandard\AUF\KIVAN.bmp~                ~override\KIVANL.bmp~
+COPY ~thepicturestandard\AUF\KIVAN.bmp~                ~override\KIVANM.bmp~
+COPY ~thepicturestandard\AUF\KIVAN.bmp~                ~override\KIVANS.bmp~
+
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCS.bmp~
+
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARL.bmp~
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARM.bmp~
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARS.bmp~
+
+COPY ~thepicturestandard\AUF\NAERIE.bmp~               ~override\NAERIEL.bmp~
+COPY ~thepicturestandard\AUF\NAERIE.bmp~               ~override\NAERIEM.bmp~
+COPY ~thepicturestandard\AUF\NAERIES.bmp~              ~override\NAERIES.bmp~
+
+COPY ~thepicturestandard\AUF\NANOMEN.bmp~              ~override\NANOMENL.bmp~
+COPY ~thepicturestandard\AUF\NANOMEN.bmp~              ~override\NANOMENM.bmp~
+COPY ~thepicturestandard\AUF\NANOMEN.bmp~              ~override\NANOMENS.bmp~
+
+COPY ~thepicturestandard\AUF\NCERND.bmp~               ~override\NCERNDL.bmp~
+COPY ~thepicturestandard\AUF\NCERND.bmp~               ~override\NCERNDM.bmp~
+COPY ~thepicturestandard\AUF\NCERNDS.bmp~              ~override\NCERNDS.bmp~
+
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\NEDWINS.bmp~
+
+COPY ~thepicturestandard\AUF\NEERA.bmp~                ~override\NEERAL.bmp~
+COPY ~thepicturestandard\AUF\NEERA.bmp~                ~override\NEERAM.bmp~
+COPY ~thepicturestandard\AUF\NEERA.bmp~                ~override\NEERAS.bmp~
+
+COPY ~thepicturestandard\AUF\NHAER.bmp~                ~override\NHAERL.bmp~
+COPY ~thepicturestandard\AUF\NHAER.bmp~                ~override\NHAERM.bmp~
+COPY ~thepicturestandard\AUF\NHAER.bmp~                ~override\NHAERS.bmp~
+
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~               ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~               ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~               ~override\NIMOENS.bmp~
+
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\NJAHEIRL.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\NJAHEIRM.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\NJAHEIRS.bmp~
+
+COPY ~thepicturestandard\AUF\NJAN.bmp~                 ~override\NJANL.bmp~
+COPY ~thepicturestandard\AUF\NJAN.bmp~                 ~override\NJANM.bmp~
+COPY ~thepicturestandard\AUF\NJAN.bmp~                 ~override\NJANS.bmp~
+
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORL.bmp~
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORM.bmp~
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORS.bmp~
+
+COPY ~thepicturestandard\AUF\NKORGANL.bmp~             ~override\NKORGANL.bmp~
+COPY ~thepicturestandard\AUF\NKORGAN.bmp~              ~override\NKORGANM.bmp~
+COPY ~thepicturestandard\AUF\NKORGAN.bmp~              ~override\NKORGANS.bmp~
+
+COPY ~thepicturestandard\AUF\NMAZZYL.bmp~              ~override\NMAZZYL.bmp~
+COPY ~thepicturestandard\AUF\NMAZZYM.bmp~              ~override\NMAZZYM.bmp~
+COPY ~thepicturestandard\AUF\NMAZZYS.bmp~              ~override\NMAZZYS.bmp~
+
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\NMINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\NMINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\NMINSCS.bmp~
+
+COPY ~thepicturestandard\AUF\NNALIAL.bmp~              ~override\NNALIAL.bmp~
+COPY ~thepicturestandard\AUF\NNALIA.bmp~               ~override\NNALIAM.bmp~
+COPY ~thepicturestandard\AUF\NNALIA.bmp~               ~override\NNALIAS.bmp~
+
+COPY ~thepicturestandard\AUF\NVALYGA.bmp~              ~override\NVALYGAL.bmp~
+COPY ~thepicturestandard\AUF\NVALYGA.bmp~              ~override\NVALYGAM.bmp~
+COPY ~thepicturestandard\AUF\NVALYGA.bmp~              ~override\NVALYGAS.bmp~
+
+COPY ~thepicturestandard\AUF\VICONIAL.bmp~             ~override\NVICONL.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~              ~override\NVICONM.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~              ~override\NVICONS.bmp~
+
+COPY ~thepicturestandard\AUF\NYOSHIM.bmp~              ~override\NYOSHIML.bmp~
+COPY ~thepicturestandard\AUF\NYOSHIM.bmp~              ~override\NYOSHIMM.bmp~
+COPY ~thepicturestandard\AUF\NYOSHIM.bmp~              ~override\NYOSHIMS.bmp~
+
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLEL.bmp~
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLEM.bmp~
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLES.bmp~
+
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADL.bmp~
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADM.bmp~
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADS.bmp~
+
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAL.bmp~
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAM.bmp~
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAS.bmp~
+
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKS.bmp~
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKM.bmp~
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKL.bmp~
+
+COPY ~thepicturestandard\AUF\SHARTEL.bmp~              ~override\SHARTELL.bmp~
+COPY ~thepicturestandard\AUF\SHARTEL.bmp~              ~override\SHARTELM.bmp~
+COPY ~thepicturestandard\AUF\SHARTELS.bmp~             ~override\SHARTELS.bmp~
+
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIES.bmp~
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIEM.bmp~
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIEL.bmp~
+
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXL.bmp~
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXM.bmp~
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXS.bmp~
+
+COPY ~thepicturestandard\AUF\VICONIAL.bmp~             ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~              ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~              ~override\VICONIAS.bmp~
+
+COPY ~thepicturestandard\AUF\WILSONL.bmp~              ~override\WILSONL.bmp~
+COPY ~thepicturestandard\AUF\WILSONM.bmp~              ~override\WILSONM.bmp~
+COPY ~thepicturestandard\AUF\WILSONS.bmp~              ~override\WILSONS.bmp~
+
+COPY ~thepicturestandard\AUF\XAN.bmp~                  ~override\XANL.bmp~
+COPY ~thepicturestandard\AUF\XAN.bmp~                  ~override\XANM.bmp~
+COPY ~thepicturestandard\AUF\XAN.bmp~                  ~override\XANS.bmp~
+
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARL.bmp~
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARM.bmp~
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARS.bmp~
+
+COPY ~thepicturestandard\AUF\YESLICKL.bmp~             ~override\YESLICKL.bmp~
+COPY ~thepicturestandard\AUF\YESLICK.bmp~              ~override\YESLICKM.bmp~
+COPY ~thepicturestandard\AUF\YESLICK.bmp~              ~override\YESLICKS.bmp~
+
+
+BEGIN @2600 // VariantB (this text will be for the option itself)
+DESIGNATED 2600 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @20 // Followers (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\BUF\AJANTISL.bmp~             ~override\AJANTISL.bmp~
+COPY ~thepicturestandard\BUF\AJANTISM.bmp~             ~override\AJANTISM.bmp~
+COPY ~thepicturestandard\BUF\AJANTISS.bmp~             ~override\AJANTISS.bmp~
+
+COPY ~thepicturestandard\BUF\ALORAL.bmp~               ~override\ALORAL.bmp~
+COPY ~thepicturestandard\BUF\ALORAM.bmp~               ~override\ALORAM.bmp~
+COPY ~thepicturestandard\BUF\ALORAS.bmp~               ~override\ALORAS.bmp~
+
+COPY ~thepicturestandard\AUF\BAELOTH.bmp~              ~override\BAELOTHL.bmp~
+COPY ~thepicturestandard\AUF\BAELOTH.bmp~              ~override\BAELOTHM.bmp~
+COPY ~thepicturestandard\AUF\BAELOTH.bmp~              ~override\BAELOTHS.bmp~
+
+COPY ~thepicturestandard\BUF\BRANWE.bmp~               ~override\BRANWEL.bmp~
+COPY ~thepicturestandard\BUF\BRANWE.bmp~               ~override\BRANWEM.bmp~
+COPY ~thepicturestandard\BUF\BRANWES.bmp~              ~override\BRANWES.bmp~
+
+COPY ~thepicturestandard\AUF\CORAN.bmp~                ~override\CORANL.bmp~
+COPY ~thepicturestandard\AUF\CORAN.bmp~                ~override\CORANM.bmp~
+COPY ~thepicturestandard\AUF\CORAN.bmp~                ~override\CORANS.bmp~
+
+COPY ~thepicturestandard\AUF\DORNL.bmp~                ~override\DORNL.bmp~
+COPY ~thepicturestandard\AUF\DORN.bmp~                 ~override\DORNM.bmp~
+COPY ~thepicturestandard\AUF\DORN.bmp~                 ~override\DORNS.bmp~
+
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIL.bmp~
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIM.bmp~
+COPY ~thepicturestandard\Followers\DYNAHEI.bmp~        ~override\DYNAHEIS.bmp~
+
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                ~override\EDWINL.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                ~override\EDWINM.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                ~override\EDWINS.bmp~
+
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHL.bmp~
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHM.bmp~
+COPY ~thepicturestandard\Followers\ELDOTH.bmp~         ~override\ELDOTHS.bmp~
+
+COPY ~thepicturestandard\AUF\FALDORN.bmp~              ~override\FALDORNL.bmp~
+COPY ~thepicturestandard\AUF\FALDORNS.bmp~             ~override\FALDORNM.bmp~
+COPY ~thepicturestandard\AUF\FALDORNS.bmp~             ~override\FALDORNS.bmp~
+
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKL.bmp~
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKM.bmp~
+COPY ~thepicturestandard\Followers\GARRICK.bmp~        ~override\GARRICKS.bmp~
+
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                ~override\IMOENL.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                ~override\IMOENM.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                ~override\IMOENS.bmp~
+
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\JAHEIRAL.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\JAHEIRAM.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\JAHEIRAS.bmp~
+
+COPY ~thepicturestandard\AUF\KAGAINL.bmp~              ~override\KAGAINL.bmp~
+COPY ~thepicturestandard\AUF\KAGAIN.bmp~               ~override\KAGAINM.bmp~
+COPY ~thepicturestandard\AUF\KAGAIN.bmp~               ~override\KAGAINS.bmp~
+
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDL.bmp~
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDM.bmp~
+COPY ~thepicturestandard\Followers\KHALID.bmp~         ~override\KHALIDS.bmp~
+
+COPY ~thepicturestandard\AUF\KIVAN.bmp~                ~override\KIVANL.bmp~
+COPY ~thepicturestandard\AUF\KIVAN.bmp~                ~override\KIVANM.bmp~
+COPY ~thepicturestandard\AUF\KIVAN.bmp~                ~override\KIVANS.bmp~
+
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\MINSCS.bmp~
+
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARL.bmp~
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARM.bmp~
+COPY ~thepicturestandard\Followers\MONTAR.bmp~         ~override\MONTARS.bmp~
+
+COPY ~thepicturestandard\BUF\NAERIE.bmp~               ~override\NAERIEL.bmp~
+COPY ~thepicturestandard\BUF\NAERIE.bmp~               ~override\NAERIEM.bmp~
+COPY ~thepicturestandard\BUF\NAERIE.bmp~               ~override\NAERIES.bmp~
+
+COPY ~thepicturestandard\AUF\NANOMEN.bmp~              ~override\NANOMENL.bmp~
+COPY ~thepicturestandard\AUF\NANOMEN.bmp~              ~override\NANOMENM.bmp~
+COPY ~thepicturestandard\AUF\NANOMEN.bmp~              ~override\NANOMENS.bmp~
+
+COPY ~thepicturestandard\AUF\NCERND.bmp~               ~override\NCERNDL.bmp~
+COPY ~thepicturestandard\AUF\NCERND.bmp~               ~override\NCERNDM.bmp~
+COPY ~thepicturestandard\AUF\NCERNDS.bmp~              ~override\NCERNDS.bmp~
+
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                ~override\NEDWINS.bmp~
+
+COPY ~thepicturestandard\AUF\NEERA.bmp~                ~override\NEERAL.bmp~
+COPY ~thepicturestandard\AUF\NEERA.bmp~                ~override\NEERAM.bmp~
+COPY ~thepicturestandard\AUF\NEERA.bmp~                ~override\NEERAS.bmp~
+
+COPY ~thepicturestandard\AUF\NHAER.bmp~                ~override\NHAERL.bmp~
+COPY ~thepicturestandard\AUF\NHAER.bmp~                ~override\NHAERM.bmp~
+COPY ~thepicturestandard\AUF\NHAER.bmp~                ~override\NHAERS.bmp~
+
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~               ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~               ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~               ~override\NIMOENS.bmp~
+
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\NJAHEIRL.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\NJAHEIRM.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~              ~override\NJAHEIRS.bmp~
+
+COPY ~thepicturestandard\AUF\NJAN.bmp~                 ~override\NJANL.bmp~
+COPY ~thepicturestandard\AUF\NJAN.bmp~                 ~override\NJANM.bmp~
+COPY ~thepicturestandard\AUF\NJAN.bmp~                 ~override\NJANS.bmp~
+
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORL.bmp~
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORM.bmp~
+COPY ~thepicturestandard\Followers\NKELDOR.bmp~        ~override\NKELDORS.bmp~
+
+COPY ~thepicturestandard\AUF\NKORGANL.bmp~             ~override\NKORGANL.bmp~
+COPY ~thepicturestandard\AUF\NKORGAN.bmp~              ~override\NKORGANM.bmp~
+COPY ~thepicturestandard\AUF\NKORGAN.bmp~              ~override\NKORGANS.bmp~
+
+COPY ~thepicturestandard\AUF\NMAZZYL.bmp~              ~override\NMAZZYL.bmp~
+COPY ~thepicturestandard\AUF\NMAZZYM.bmp~              ~override\NMAZZYM.bmp~
+COPY ~thepicturestandard\AUF\NMAZZYS.bmp~              ~override\NMAZZYS.bmp~
+
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\NMINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\NMINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~          ~override\NMINSCS.bmp~
+
+COPY ~thepicturestandard\AUF\NNALIAL.bmp~              ~override\NNALIAL.bmp~
+COPY ~thepicturestandard\AUF\NNALIA.bmp~               ~override\NNALIAM.bmp~
+COPY ~thepicturestandard\AUF\NNALIA.bmp~               ~override\NNALIAS.bmp~
+
+COPY ~thepicturestandard\AUF\NVALYGA.bmp~              ~override\NVALYGAL.bmp~
+COPY ~thepicturestandard\AUF\NVALYGA.bmp~              ~override\NVALYGAM.bmp~
+COPY ~thepicturestandard\AUF\NVALYGA.bmp~              ~override\NVALYGAS.bmp~
+
+COPY ~thepicturestandard\BUF\VICONIAL.bmp~             ~override\NVICONL.bmp~
+COPY ~thepicturestandard\BUF\VICONIAM.bmp~             ~override\NVICONM.bmp~
+COPY ~thepicturestandard\BUF\VICONIAS.bmp~             ~override\NVICONS.bmp~
+
+COPY ~thepicturestandard\AUF\NYOSHIM.bmp~              ~override\NYOSHIML.bmp~
+COPY ~thepicturestandard\AUF\NYOSHIM.bmp~              ~override\NYOSHIMM.bmp~
+COPY ~thepicturestandard\AUF\NYOSHIM.bmp~              ~override\NYOSHIMS.bmp~
+
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLEL.bmp~
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLEM.bmp~
+COPY ~thepicturestandard\Followers\QUAYLE.bmp~         ~override\QUAYLES.bmp~
+
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADL.bmp~
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADM.bmp~
+COPY ~thepicturestandard\Followers\RASAAD.bmp~         ~override\RASAADS.bmp~
+
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAL.bmp~
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAM.bmp~
+COPY ~thepicturestandard\Followers\SAFANA.bmp~         ~override\SAFANAS.bmp~
+
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKS.bmp~
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKM.bmp~
+COPY ~thepicturestandard\Followers\SAREVOK.bmp~        ~override\SAREVOKL.bmp~
+
+COPY ~thepicturestandard\AUF\SHARTEL.bmp~              ~override\SHARTELL.bmp~
+COPY ~thepicturestandard\AUF\SHARTEL.bmp~              ~override\SHARTELM.bmp~
+COPY ~thepicturestandard\AUF\SHARTELS.bmp~             ~override\SHARTELS.bmp~
+
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIES.bmp~
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIEM.bmp~
+COPY ~thepicturestandard\Followers\SKIE.bmp~           ~override\SKIEL.bmp~
+
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXL.bmp~
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXM.bmp~
+COPY ~thepicturestandard\Followers\TIAX.bmp~           ~override\TIAXS.bmp~
+
+COPY ~thepicturestandard\BUF\VICONIAL.bmp~             ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\BUF\VICONIAM.bmp~             ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\BUF\VICONIAS.bmp~             ~override\VICONIAS.bmp~
+
+COPY ~thepicturestandard\AUF\WILSONL.bmp~              ~override\WILSONL.bmp~
+COPY ~thepicturestandard\AUF\WILSONM.bmp~              ~override\WILSONM.bmp~
+COPY ~thepicturestandard\AUF\WILSONS.bmp~              ~override\WILSONS.bmp~
+
+COPY ~thepicturestandard\BUF\XANL.bmp~                 ~override\XANL.bmp~
+COPY ~thepicturestandard\BUF\XAN.bmp~                  ~override\XANM.bmp~
+COPY ~thepicturestandard\BUF\XAN.bmp~                  ~override\XANS.bmp~
+
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARL.bmp~
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARM.bmp~
+COPY ~thepicturestandard\Followers\XZAR.bmp~           ~override\XZARS.bmp~
+
+COPY ~thepicturestandard\AUF\YESLICKL.bmp~             ~override\YESLICKL.bmp~
+COPY ~thepicturestandard\AUF\YESLICK.bmp~              ~override\YESLICKM.bmp~
+COPY ~thepicturestandard\AUF\YESLICK.bmp~              ~override\YESLICKS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [BG1NPC]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @3000 // Vanilla (this text will be for the option itself)
+DESIGNATED 3000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @30 // BG1NPC (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\BG1NPC\AJDOUGS.bmp~           ~override\AJDOUGS.bmp~
+COPY ~thepicturestandard\BG1NPC\ALATOS.bmp~            ~override\ALATOS.bmp~
+COPY ~thepicturestandard\BG1NPC\ALBERS.bmp~            ~override\ALBERS.bmp~
+COPY ~thepicturestandard\BG1NPC\ALYTHS.bmp~            ~override\ALYTHS.bmp~
+COPY ~thepicturestandard\BG1NPC\AMARANS.bmp~           ~override\AMARANS.bmp~
+COPY ~thepicturestandard\BG1NPC\AMELIAS.bmp~           ~override\AMELIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\ANDARS.bmp~            ~override\ANDARS.bmp~
+COPY ~thepicturestandard\BG1NPC\ANGELOS.bmp~           ~override\ANGELOS.bmp~
+COPY ~thepicturestandard\BG1NPC\ARKUSHS.bmp~           ~override\ARKUSHS.bmp~
+COPY ~thepicturestandard\BG1NPC\ARMOREDS.bmp~          ~override\ARMOREDS.bmp~
+COPY ~thepicturestandard\BG1NPC\ASSTSTS.bmp~           ~override\ASSTSTS.bmp~
+COPY ~thepicturestandard\BG1NPC\AVARICES.bmp~          ~override\AVARICES.bmp~
+COPY ~thepicturestandard\BG1NPC\BARESHS.bmp~           ~override\BARESHS.bmp~
+COPY ~thepicturestandard\BG1NPC\BASS.bmp~              ~override\BASS.bmp~
+COPY ~thepicturestandard\BG1NPC\BAYARDS.bmp~           ~override\BAYARDS.bmp~
+COPY ~thepicturestandard\BG1NPC\BEADORS.bmp~           ~override\BEADORS.bmp~
+COPY ~thepicturestandard\BG1NPC\BELTS.bmp~             ~override\BELTS.bmp~
+COPY ~thepicturestandard\BG1NPC\BENTLYS.bmp~           ~override\BENTLYS.bmp~
+COPY ~thepicturestandard\BG1NPC\BHETELS.bmp~           ~override\BHETELS.bmp~
+COPY ~thepicturestandard\BG1NPC\BJORNS.bmp~            ~override\BJORNS.bmp~
+COPY ~thepicturestandard\BG1NPC\BLACKS.bmp~            ~override\BLACKS.bmp~
+COPY ~thepicturestandard\BG1NPC\BRAGES.bmp~            ~override\BRAGES.bmp~
+COPY ~thepicturestandard\BG1NPC\BRIELS.bmp~            ~override\BRIELS.bmp~
+COPY ~thepicturestandard\BG1NPC\BRILLES.bmp~           ~override\BRILLES.bmp~
+COPY ~thepicturestandard\BG1NPC\BRUNS.bmp~             ~override\BRUNS.bmp~
+COPY ~thepicturestandard\BG1NPC\BULLRUSS.bmp~          ~override\BULLRUSS.bmp~
+COPY ~thepicturestandard\BG1NPC\CADDS.bmp~             ~override\CADDS.bmp~
+COPY ~thepicturestandard\BG1NPC\CALAHAS.bmp~           ~override\CALAHAS.bmp~
+COPY ~thepicturestandard\BG1NPC\CAPFFS.bmp~            ~override\CAPFFS.bmp~
+COPY ~thepicturestandard\BG1NPC\CHASES.bmp~            ~override\CHASES.bmp~
+COPY ~thepicturestandard\BG1NPC\CLAIRDS.bmp~           ~override\CLAIRDS.bmp~
+COPY ~thepicturestandard\BG1NPC\DAITELS.bmp~           ~override\DAITELS.bmp~
+COPY ~thepicturestandard\BG1NPC\DALTONS.bmp~           ~override\DALTONS.bmp~
+COPY ~thepicturestandard\BG1NPC\DAVERONS.bmp~          ~override\DAVERONS.bmp~
+COPY ~thepicturestandard\BG1NPC\DAVIDS.bmp~            ~override\DAVIDS.bmp~
+COPY ~thepicturestandard\BG1NPC\DEATHKS.bmp~           ~override\DEATHKS.bmp~
+COPY ~thepicturestandard\BG1NPC\DELAS.bmp~             ~override\DELAS.bmp~
+COPY ~thepicturestandard\BG1NPC\DELSVIRS.bmp~          ~override\DELSVIRS.bmp~
+COPY ~thepicturestandard\BG1NPC\DOPDURS.bmp~           ~override\DOPDURS.bmp~
+COPY ~thepicturestandard\BG1NPC\DRIENS.bmp~            ~override\DRIENS.bmp~
+COPY ~thepicturestandard\BG1NPC\DRIZZTS.bmp~           ~override\DRIZZTS.bmp~
+COPY ~thepicturestandard\BG1NPC\DRYADCPS.bmp~          ~override\DRYADCPS.bmp~
+COPY ~thepicturestandard\BG1NPC\DURLAGS.bmp~           ~override\DURLAGS.bmp~
+COPY ~thepicturestandard\BG1NPC\DURLS.bmp~             ~override\DURLS.bmp~
+COPY ~thepicturestandard\BG1NPC\DURSWORS.bmp~          ~override\DURSWORS.bmp~
+COPY ~thepicturestandard\BG1NPC\DUSHAIS.bmp~           ~override\DUSHAIS.bmp~
+COPY ~thepicturestandard\BG1NPC\ELMINS.bmp~            ~override\ELMINS.bmp~
+COPY ~thepicturestandard\BG1NPC\ELMINM.bmp~            ~override\ELMINM.bmp~
+COPY ~thepicturestandard\BG1NPC\ELMINL.bmp~            ~override\ELMINL.bmp~
+COPY ~thepicturestandard\BG1NPC\ELTANS.bmp~            ~override\ELTANS.bmp~
+COPY ~thepicturestandard\BG1NPC\ERDANES.bmp~           ~override\ERDANES.bmp~
+COPY ~thepicturestandard\BG1NPC\FBEHS.bmp~             ~override\FBEHS.bmp~
+COPY ~thepicturestandard\BG1NPC\FEARS.bmp~             ~override\FEARS.bmp~
+COPY ~thepicturestandard\BG1NPC\FENRUSS.bmp~           ~override\FENRUSS.bmp~
+COPY ~thepicturestandard\BG1NPC\FSPIRITS.bmp~          ~override\FSPIRITS.bmp~
+COPY ~thepicturestandard\BG1NPC\galiles.bmp~           ~override\galiles.bmp~
+COPY ~thepicturestandard\BG1NPC\GALKENS.bmp~           ~override\GALKENS.bmp~
+COPY ~thepicturestandard\BG1NPC\GALTOKS.bmp~           ~override\GALTOKS.bmp~
+COPY ~thepicturestandard\BG1NPC\GARARS.bmp~            ~override\GARARS.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM2L.bmp~          ~override\GARZOM2L.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM2M.bmp~          ~override\GARZOM2M.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM2S.bmp~          ~override\GARZOM2S.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM3S.bmp~          ~override\GARZOM3S.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM4S.bmp~          ~override\GARZOM4S.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOML.bmp~           ~override\GARZOML.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOMM.bmp~           ~override\GARZOMM.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOMS.bmp~           ~override\GARZOMS.bmp~
+COPY ~thepicturestandard\BG1NPC\GATEWARS.bmp~          ~override\GATEWARS.bmp~
+COPY ~thepicturestandard\BG1NPC\GELLANS.bmp~           ~override\GELLANS.bmp~
+COPY ~thepicturestandard\BG1NPC\GERDES.bmp~            ~override\GERDES.bmp~
+COPY ~thepicturestandard\BG1NPC\GNOLLS.bmp~            ~override\GNOLLS.bmp~
+COPY ~thepicturestandard\BG1NPC\GORIONS.bmp~           ~override\GORIONS.bmp~
+COPY ~thepicturestandard\BG1NPC\GRAELS.bmp~            ~override\GRAELS.bmp~
+COPY ~thepicturestandard\BG1NPC\GREENS.bmp~            ~override\GREENS.bmp~
+COPY ~thepicturestandard\BG1NPC\GREYWS.bmp~            ~override\GREYWS.bmp~
+COPY ~thepicturestandard\BG1NPC\HACKS.bmp~             ~override\HACKS.bmp~
+COPY ~thepicturestandard\BG1NPC\HAFIZS.bmp~            ~override\HAFIZS.bmp~
+COPY ~thepicturestandard\BG1NPC\HALBAZS.bmp~           ~override\HALBAZS.bmp~
+COPY ~thepicturestandard\BG1NPC\HURGANS.bmp~           ~override\HURGANS.bmp~
+COPY ~thepicturestandard\BG1NPC\IKES.bmp~              ~override\IKES.bmp~
+COPY ~thepicturestandard\BG1NPC\ISLANNS.bmp~           ~override\ISLANNS.bmp~
+COPY ~thepicturestandard\BG1NPC\JESSUPS.bmp~           ~override\JESSUPS.bmp~
+COPY ~thepicturestandard\BG1NPC\JOIAS.bmp~             ~override\JOIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\KABANDS.bmp~           ~override\KABANDS.bmp~
+COPY ~thepicturestandard\BG1NPC\KAROUGS.bmp~           ~override\KAROUGS.bmp~
+COPY ~thepicturestandard\BG1NPC\KASHIAS.bmp~           ~override\KASHIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\KEEPERS.bmp~           ~override\KEEPERS.bmp~
+COPY ~thepicturestandard\BG1NPC\KELDATHS.bmp~          ~override\KELDATHS.bmp~
+COPY ~thepicturestandard\BG1NPC\KETHS.bmp~             ~override\KETHS.bmp~
+COPY ~thepicturestandard\BG1NPC\KIRINHS.bmp~           ~override\KIRINHS.bmp~
+COPY ~thepicturestandard\BG1NPC\KORAXS.bmp~            ~override\KORAXS.bmp~
+COPY ~thepicturestandard\BG1NPC\LADYOGS.bmp~           ~override\LADYOGS.bmp~
+COPY ~thepicturestandard\BG1NPC\LANDRIS.bmp~           ~override\LANDRIS.bmp~
+COPY ~thepicturestandard\BG1NPC\LARZES.bmp~            ~override\LARZES.bmp~
+COPY ~thepicturestandard\BG1NPC\LIIAS.bmp~             ~override\LIIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\LOVES.bmp~             ~override\LOVES.bmp~
+COPY ~thepicturestandard\BG1NPC\LPB1S.bmp~             ~override\LPB1S.bmp~
+COPY ~thepicturestandard\BG1NPC\LPB2S.bmp~             ~override\LPB2S.bmp~
+COPY ~thepicturestandard\BG1NPC\LPB3S.bmp~             ~override\LPB3S.bmp~
+COPY ~thepicturestandard\BG1NPC\MADAMS.bmp~            ~override\MADAMS.bmp~
+COPY ~thepicturestandard\BG1NPC\MADARCS.bmp~           ~override\MADARCS.bmp~
+COPY ~thepicturestandard\BG1NPC\MADRINAS.bmp~          ~override\MADRINAS.bmp~
+COPY ~thepicturestandard\BG1NPC\MARETHAS.bmp~          ~override\MARETHAS.bmp~
+COPY ~thepicturestandard\BG1NPC\MARLS.bmp~             ~override\MARLS.bmp~
+COPY ~thepicturestandard\BG1NPC\MASTRCHS.bmp~          ~override\MASTRCHS.bmp~
+COPY ~thepicturestandard\BG1NPC\MEIALAS.bmp~           ~override\MEIALAS.bmp~
+COPY ~thepicturestandard\BG1NPC\MENDAS.bmp~            ~override\MENDAS.bmp~
+COPY ~thepicturestandard\BG1NPC\mercuts.bmp~           ~override\mercuts.bmp~
+COPY ~thepicturestandard\BG1NPC\MOORLOCS.bmp~          ~override\MOORLOCS.bmp~
+COPY ~thepicturestandard\BG1NPC\MULAHS.bmp~            ~override\MULAHS.bmp~
+COPY ~thepicturestandard\BG1NPC\MUTAMIS.bmp~           ~override\MUTAMIS.bmp~
+COPY ~thepicturestandard\BG1NPC\NARLENS.bmp~           ~override\NARLENS.bmp~
+COPY ~thepicturestandard\BG1NPC\NATANS.bmp~            ~override\NATANS.bmp~
+COPY ~thepicturestandard\BG1NPC\NEBS.bmp~              ~override\NEBS.bmp~
+COPY ~thepicturestandard\BG1NPC\niemais.bmp~           ~override\niemais.bmp~
+COPY ~thepicturestandard\BG1NPC\OFVAIS.bmp~            ~override\OFVAIS.bmp~
+COPY ~thepicturestandard\BG1NPC\P#KI2.bmp~             ~override\P#KI2M.bmp~
+COPY ~thepicturestandard\BG1NPC\P#KI2.bmp~             ~override\P#KI2S.bmp~
+COPY ~thepicturestandard\BG1NPC\PERDUES.bmp~           ~override\PERDUES.bmp~
+COPY ~thepicturestandard\BG1NPC\PETERS.bmp~            ~override\PETERS.bmp~
+COPY ~thepicturestandard\BG1NPC\PETRINS.bmp~           ~override\PETRINS.bmp~
+COPY ~thepicturestandard\BG1NPC\PHEIRKS.bmp~           ~override\PHEIRKS.bmp~
+COPY ~thepicturestandard\BG1NPC\PRIDES.bmp~            ~override\PRIDES.bmp~
+COPY ~thepicturestandard\BG1NPC\RASHELS.bmp~           ~override\RASHELS.bmp~
+COPY ~thepicturestandard\BG1NPC\RIELTARS.bmp~          ~override\RIELTARS.bmp~
+COPY ~thepicturestandard\BG1NPC\RIGGILOM.bmp~          ~override\RIGGILOM.bmp~
+COPY ~thepicturestandard\BG1NPC\RIGGILOS.bmp~          ~override\RIGGILOS.bmp~
+COPY ~thepicturestandard\BG1NPC\SAREVOKS.bmp~          ~override\SAREVOKS.bmp~
+COPY ~thepicturestandard\BG1NPC\SARHEDS.bmp~           ~override\SARHEDS.bmp~
+COPY ~thepicturestandard\BG1NPC\SCARS.bmp~             ~override\SCARS.bmp~
+COPY ~thepicturestandard\BG1NPC\SEAS.bmp~              ~override\SEAS.bmp~
+COPY ~thepicturestandard\BG1NPC\SENIYAS.bmp~           ~override\SENIYAS.bmp~
+COPY ~thepicturestandard\BG1NPC\SETTAS.bmp~            ~override\SETTAS.bmp~
+COPY ~thepicturestandard\BG1NPC\SHANDS.bmp~            ~override\SHANDS.bmp~
+COPY ~thepicturestandard\BG1NPC\SHDR8AS.bmp~           ~override\SHDR8AS.bmp~
+COPY ~thepicturestandard\BG1NPC\SHOALS.bmp~            ~override\SHOALS.bmp~
+COPY ~thepicturestandard\BG1NPC\SILKES.bmp~            ~override\SILKES.bmp~
+COPY ~thepicturestandard\BG1NPC\STORMS.bmp~            ~override\STORMS.bmp~
+COPY ~thepicturestandard\BG1NPC\SVEETLAS.bmp~          ~override\SVEETLAS.bmp~
+COPY ~thepicturestandard\BG1NPC\TAEROMS.bmp~           ~override\TAEROMS.bmp~
+COPY ~thepicturestandard\BG1NPC\TAMOKOS.bmp~           ~override\TAMOKOS.bmp~
+COPY ~thepicturestandard\BG1NPC\TARNESS.bmp~           ~override\TARNESS.bmp~
+COPY ~thepicturestandard\BG1NPC\TARNORS.bmp~           ~override\TARNORS.bmp~
+COPY ~thepicturestandard\BG1NPC\TAZOKS.bmp~            ~override\TAZOKS.bmp~
+COPY ~thepicturestandard\BG1NPC\TELLANS.bmp~           ~override\TELLANS.bmp~
+COPY ~thepicturestandard\BG1NPC\TENYAS.bmp~            ~override\TENYAS.bmp~
+COPY ~thepicturestandard\BG1NPC\THALAS.bmp~            ~override\THALAS.bmp~
+COPY ~thepicturestandard\BG1NPC\THERELS.bmp~           ~override\THERELS.bmp~
+COPY ~thepicturestandard\BG1NPC\ULRAUNTS.bmp~          ~override\ULRAUNTS.bmp~
+COPY ~thepicturestandard\BG1NPC\UMBPRS.bmp~            ~override\UMBPRS.bmp~
+COPY ~thepicturestandard\BG1NPC\UNSHEYS.bmp~           ~override\UNSHEYS.bmp~
+COPY ~thepicturestandard\BG1NPC\VAILS.bmp~             ~override\VAILS.bmp~
+COPY ~thepicturestandard\BG1NPC\VOLOS.bmp~             ~override\VOLOS.bmp~
+COPY ~thepicturestandard\BG1NPC\WINSKIS.bmp~           ~override\WINSKIS.bmp~
+COPY ~thepicturestandard\BG1NPC\WINTHRS.bmp~           ~override\WINTHRS.bmp~
+COPY ~thepicturestandard\BG1NPC\XIMANS.bmp~            ~override\XIMANS.bmp~
+COPY ~thepicturestandard\BG1NPC\XZGUS.bmp~             ~override\XZGUS.bmp~
+COPY ~thepicturestandard\BG1NPC\yagos.bmp~             ~override\yagos.bmp~
+COPY ~thepicturestandard\BG1NPC\ZOSYAS.bmp~            ~override\ZOSYAS.bmp~
+
+
+BEGIN @3500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 3500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @30 // BG1NPC (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\BG1NPC\AJDOUGS.bmp~           ~override\AJDOUGS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ALATOS.bmp~           ~override\ALATOS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ALBERS.bmp~           ~override\ALBERS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ALYTHS.bmp~           ~override\ALYTHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\AMARANS.bmp~          ~override\AMARANS.bmp~
+COPY ~thepicturestandard\BG1NPC\AMELIAS.bmp~           ~override\AMELIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\ANDARS.bmp~            ~override\ANDARS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ANGELOS.bmp~          ~override\ANGELOS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ARKUSHS.bmp~          ~override\ARKUSHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ARMOREDS.bmp~         ~override\ARMOREDS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ASSTSTS.bmp~          ~override\ASSTSTS.bmp~
+COPY ~thepicturestandard\BG1NPC\AVARICES.bmp~          ~override\AVARICES.bmp~
+COPY ~thepicturestandard\ABG1NPC\BARESHS.bmp~          ~override\BARESHS.bmp~
+COPY ~thepicturestandard\BG1NPC\BASS.bmp~              ~override\BASS.bmp~
+COPY ~thepicturestandard\BG1NPC\BAYARDS.bmp~           ~override\BAYARDS.bmp~
+COPY ~thepicturestandard\BG1NPC\BEADORS.bmp~           ~override\BEADORS.bmp~
+COPY ~thepicturestandard\ABG1NPC\BELTS.bmp~            ~override\BELTS.bmp~
+COPY ~thepicturestandard\BG1NPC\BENTLYS.bmp~           ~override\BENTLYS.bmp~
+COPY ~thepicturestandard\ABG1NPC\BHETELS.bmp~          ~override\BHETELS.bmp~
+COPY ~thepicturestandard\ABG1NPC\BJORNS.bmp~           ~override\BJORNS.bmp~
+COPY ~thepicturestandard\BG1NPC\BLACKS.bmp~            ~override\BLACKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\BRAGES.bmp~           ~override\BRAGES.bmp~
+COPY ~thepicturestandard\ABG1NPC\BRIELS.bmp~           ~override\BRIELS.bmp~
+COPY ~thepicturestandard\ABG1NPC\BRILLES.bmp~          ~override\BRILLES.bmp~
+COPY ~thepicturestandard\ABG1NPC\BRUNS.bmp~            ~override\BRUNS.bmp~
+COPY ~thepicturestandard\BG1NPC\BULLRUSS.bmp~          ~override\BULLRUSS.bmp~
+COPY ~thepicturestandard\ABG1NPC\CADDS.bmp~            ~override\CADDS.bmp~
+COPY ~thepicturestandard\BG1NPC\CALAHAS.bmp~           ~override\CALAHAS.bmp~
+COPY ~thepicturestandard\BG1NPC\CAPFFS.bmp~            ~override\CAPFFS.bmp~
+COPY ~thepicturestandard\BG1NPC\CHASES.bmp~            ~override\CHASES.bmp~
+COPY ~thepicturestandard\BG1NPC\CLAIRDS.bmp~           ~override\CLAIRDS.bmp~
+COPY ~thepicturestandard\BG1NPC\DAITELS.bmp~           ~override\DAITELS.bmp~
+COPY ~thepicturestandard\BG1NPC\DALTONS.bmp~           ~override\DALTONS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DAVERONS.bmp~         ~override\DAVERONS.bmp~
+COPY ~thepicturestandard\BG1NPC\DAVIDS.bmp~            ~override\DAVIDS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DEATHKL.bmp~          ~override\DEATHKL.bmp~
+COPY ~thepicturestandard\ABG1NPC\DEATHKM.bmp~          ~override\DEATHKM.bmp~
+COPY ~thepicturestandard\ABG1NPC\DEATHKS.bmp~          ~override\DEATHKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DELAS.bmp~            ~override\DELAS.bmp~
+COPY ~thepicturestandard\BG1NPC\DELSVIRS.bmp~          ~override\DELSVIRS.bmp~
+COPY ~thepicturestandard\BG1NPC\DOPDURS.bmp~           ~override\DOPDURS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DRIENS.bmp~           ~override\DRIENS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DRIZZTL.bmp~          ~override\DRIZZTL.bmp~
+COPY ~thepicturestandard\ABG1NPC\DRIZZTM.bmp~          ~override\DRIZZTM.bmp~
+COPY ~thepicturestandard\ABG1NPC\DRIZZTS.bmp~          ~override\DRIZZTS.bmp~
+COPY ~thepicturestandard\BG1NPC\DRYADCPS.bmp~          ~override\DRYADCPS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DURLAGS.bmp~          ~override\DURLAGS.bmp~
+COPY ~thepicturestandard\BG1NPC\DURLS.bmp~             ~override\DURLS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DURSWORS.bmp~         ~override\DURSWORS.bmp~
+COPY ~thepicturestandard\ABG1NPC\DUSHAIS.bmp~          ~override\DUSHAIS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ELMINS.bmp~           ~override\ELMINS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ELMINM.bmp~           ~override\ELMINM.bmp~
+COPY ~thepicturestandard\ABG1NPC\ELMINL.bmp~           ~override\ELMINL.bmp~
+COPY ~thepicturestandard\ABG1NPC\ELTANS.bmp~           ~override\ELTANS.bmp~
+COPY ~thepicturestandard\BG1NPC\ERDANES.bmp~           ~override\ERDANES.bmp~
+COPY ~thepicturestandard\BG1NPC\FBEHS.bmp~             ~override\FBEHS.bmp~
+COPY ~thepicturestandard\BG1NPC\FEARS.bmp~             ~override\FEARS.bmp~
+COPY ~thepicturestandard\BG1NPC\FENRUSS.bmp~           ~override\FENRUSS.bmp~
+COPY ~thepicturestandard\ABG1NPC\FSPIRITS.bmp~         ~override\FSPIRITS.bmp~
+COPY ~thepicturestandard\BG1NPC\galiles.bmp~           ~override\galiles.bmp~
+COPY ~thepicturestandard\ABG1NPC\GALKENS.bmp~          ~override\GALKENS.bmp~
+COPY ~thepicturestandard\BG1NPC\GALTOKS.bmp~           ~override\GALTOKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GARARS.bmp~           ~override\GARARS.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM2L.bmp~          ~override\GARZOM2L.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM2M.bmp~          ~override\GARZOM2M.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM2S.bmp~          ~override\GARZOM2S.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOM3S.bmp~          ~override\GARZOM3S.bmp~
+COPY ~thepicturestandard\ABG1NPC\GARZOM4S.bmp~         ~override\GARZOM4S.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOML.bmp~           ~override\GARZOML.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOMM.bmp~           ~override\GARZOMM.bmp~
+COPY ~thepicturestandard\BG1NPC\GARZOMS.bmp~           ~override\GARZOMS.bmp~
+COPY ~thepicturestandard\BG1NPC\GATEWARS.bmp~          ~override\GATEWARS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GELLANS.bmp~          ~override\GELLANS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GERDES.bmp~           ~override\GERDES.bmp~
+COPY ~thepicturestandard\ABG1NPC\GNOLLS.bmp~           ~override\GNOLLS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GORIONS.bmp~          ~override\GORIONS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GRAELS.bmp~           ~override\GRAELS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GREENS.bmp~           ~override\GREENS.bmp~
+COPY ~thepicturestandard\ABG1NPC\GREYWS.bmp~           ~override\GREYWS.bmp~
+COPY ~thepicturestandard\ABG1NPC\HACKS.bmp~            ~override\HACKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\HAFIZS.bmp~           ~override\HAFIZS.bmp~
+COPY ~thepicturestandard\ABG1NPC\HALBAZS.bmp~          ~override\HALBAZS.bmp~
+COPY ~thepicturestandard\ABG1NPC\HURGANS.bmp~          ~override\HURGANS.bmp~
+COPY ~thepicturestandard\ABG1NPC\IKES.bmp~             ~override\IKES.bmp~
+COPY ~thepicturestandard\BG1NPC\ISLANNS.bmp~           ~override\ISLANNS.bmp~
+COPY ~thepicturestandard\ABG1NPC\JESSUPS.bmp~          ~override\JESSUPS.bmp~
+COPY ~thepicturestandard\BG1NPC\JOIAS.bmp~             ~override\JOIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\KABANDS.bmp~           ~override\KABANDS.bmp~
+COPY ~thepicturestandard\ABG1NPC\KAROUGL.bmp~          ~override\KAROUGL.bmp~
+COPY ~thepicturestandard\ABG1NPC\KAROUGL.bmp~          ~override\KAROUGM.bmp~
+COPY ~thepicturestandard\ABG1NPC\KAROUGS.bmp~          ~override\KAROUGS.bmp~
+COPY ~thepicturestandard\ABG1NPC\KASHIAS.bmp~          ~override\KASHIAS.bmp~
+COPY ~thepicturestandard\BG1NPC\KEEPERS.bmp~           ~override\KEEPERS.bmp~
+COPY ~thepicturestandard\ABG1NPC\KELDATHS.bmp~         ~override\KELDATHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\KETHS.bmp~            ~override\KETHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\KIRINHS.bmp~          ~override\KIRINHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\KORAXS.bmp~           ~override\KORAXS.bmp~
+COPY ~thepicturestandard\ABG1NPC\LADYOGS.bmp~          ~override\LADYOGS.bmp~
+COPY ~thepicturestandard\ABG1NPC\LANDRIS.bmp~          ~override\LANDRIS.bmp~
+COPY ~thepicturestandard\ABG1NPC\LARZES.bmp~           ~override\LARZES.bmp~
+COPY ~thepicturestandard\ABG1NPC\LIIAS.bmp~            ~override\LIIAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\LOVES.bmp~            ~override\LOVES.bmp~
+COPY ~thepicturestandard\BG1NPC\LPB1S.bmp~             ~override\LPB1S.bmp~
+COPY ~thepicturestandard\ABG1NPC\LPB2S.bmp~            ~override\LPB2S.bmp~
+COPY ~thepicturestandard\ABG1NPC\LPB3S.bmp~            ~override\LPB3S.bmp~
+COPY ~thepicturestandard\ABG1NPC\MADAMS.bmp~           ~override\MADAMS.bmp~
+COPY ~thepicturestandard\BG1NPC\MADARCS.bmp~           ~override\MADARCS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MADRINAS.bmp~         ~override\MADRINAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MARETHAS.bmp~         ~override\MARETHAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MARLS.bmp~            ~override\MARLS.bmp~
+COPY ~thepicturestandard\BG1NPC\MASTRCHS.bmp~          ~override\MASTRCHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MEIALAS.bmp~          ~override\MEIALAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MENDAS.bmp~           ~override\MENDAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\mercuts.bmp~          ~override\mercuts.bmp~
+COPY ~thepicturestandard\ABG1NPC\MOORLOCS.bmp~         ~override\MOORLOCS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MULAHS.bmp~           ~override\MULAHS.bmp~
+COPY ~thepicturestandard\ABG1NPC\MUTAMIS.bmp~          ~override\MUTAMIS.bmp~
+COPY ~thepicturestandard\ABG1NPC\NARLENS.bmp~          ~override\NARLENS.bmp~
+COPY ~thepicturestandard\ABG1NPC\NATANS.bmp~           ~override\NATANS.bmp~
+COPY ~thepicturestandard\ABG1NPC\NEBS.bmp~             ~override\NEBS.bmp~
+COPY ~thepicturestandard\ABG1NPC\niemais.bmp~          ~override\niemais.bmp~
+COPY ~thepicturestandard\ABG1NPC\OFVAIS.bmp~           ~override\OFVAIS.bmp~
+COPY ~thepicturestandard\BG1NPC\P#KI2.bmp~             ~override\P#KI2M.bmp~
+COPY ~thepicturestandard\BG1NPC\P#KI2.bmp~             ~override\P#KI2S.bmp~
+COPY ~thepicturestandard\BG1NPC\PERDUES.bmp~           ~override\PERDUES.bmp~
+COPY ~thepicturestandard\ABG1NPC\PETERS.bmp~           ~override\PETERS.bmp~
+COPY ~thepicturestandard\ABG1NPC\PETRINS.bmp~          ~override\PETRINS.bmp~
+COPY ~thepicturestandard\ABG1NPC\PHEIRKS.bmp~          ~override\PHEIRKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\PRIDES.bmp~           ~override\PRIDES.bmp~
+COPY ~thepicturestandard\ABG1NPC\RASHELS.bmp~          ~override\RASHELS.bmp~
+COPY ~thepicturestandard\ABG1NPC\RIELTARS.bmp~         ~override\RIELTARS.bmp~
+COPY ~thepicturestandard\ABG1NPC\RIGGILOS.bmp~         ~override\RIGGILOS.bmp~
+COPY ~thepicturestandard\BG1NPC\SAREVOKS.bmp~          ~override\SAREVOKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SARHEDS.bmp~          ~override\SARHEDS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SCARS.bmp~            ~override\SCARS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SEAS.bmp~             ~override\SEAS.bmp~
+COPY ~thepicturestandard\BG1NPC\SENIYAS.bmp~           ~override\SENIYAS.bmp~
+COPY ~thepicturestandard\BG1NPC\SETTAS.bmp~            ~override\SETTAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SHANDS.bmp~           ~override\SHANDS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SHDR8AS.bmp~          ~override\SHDR8AS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SHOALS.bmp~           ~override\SHOALS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SILKES.bmp~           ~override\SILKES.bmp~
+COPY ~thepicturestandard\BG1NPC\STORMS.bmp~            ~override\STORMS.bmp~
+COPY ~thepicturestandard\ABG1NPC\SVEETLAS.bmp~         ~override\SVEETLAS.bmp~
+COPY ~thepicturestandard\BG1NPC\TAEROMS.bmp~           ~override\TAEROMS.bmp~
+COPY ~thepicturestandard\ABG1NPC\TAMOKOS.bmp~          ~override\TAMOKOS.bmp~
+COPY ~thepicturestandard\BG1NPC\TARNESS.bmp~           ~override\TARNESS.bmp~
+COPY ~thepicturestandard\ABG1NPC\TARNORS.bmp~          ~override\TARNORS.bmp~
+COPY ~thepicturestandard\ABG1NPC\TAZOKS.bmp~           ~override\TAZOKS.bmp~
+COPY ~thepicturestandard\ABG1NPC\TELLANS.bmp~          ~override\TELLANS.bmp~
+COPY ~thepicturestandard\ABG1NPC\TENYAS.bmp~           ~override\TENYAS.bmp~
+COPY ~thepicturestandard\ABG1NPC\THALAS.bmp~           ~override\THALAS.bmp~
+COPY ~thepicturestandard\BG1NPC\THERELS.bmp~           ~override\THERELS.bmp~
+COPY ~thepicturestandard\ABG1NPC\ULRAUNTS.bmp~         ~override\ULRAUNTS.bmp~
+COPY ~thepicturestandard\ABG1NPC\UMBPRS.bmp~           ~override\UMBPRS.bmp~
+COPY ~thepicturestandard\ABG1NPC\UNSHEYS.bmp~          ~override\UNSHEYS.bmp~
+COPY ~thepicturestandard\ABG1NPC\VAILS.bmp~            ~override\VAILS.bmp~
+COPY ~thepicturestandard\ABG1NPC\VOLOS.bmp~            ~override\VOLOS.bmp~
+COPY ~thepicturestandard\ABG1NPC\WINSKIS.bmp~          ~override\WINSKIS.bmp~
+COPY ~thepicturestandard\ABG1NPC\WINTHRS.bmp~          ~override\WINTHRS.bmp~
+COPY ~thepicturestandard\ABG1NPC\XIMANS.bmp~           ~override\XIMANS.bmp~
+COPY ~thepicturestandard\BG1NPC\XZGUS.bmp~             ~override\XZGUS.bmp~
+COPY ~thepicturestandard\ABG1NPC\yagos.bmp~            ~override\yagos.bmp~
+COPY ~thepicturestandard\ABG1NPC\ZOSYAS.bmp~           ~override\ZOSYAS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [DarkHorizons]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @4000 // Vanilla (this text will be for the option itself)
+DESIGNATED 4000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @40 // DarkHorizons (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\DH\CMAND1S.bmp~               ~override\CMAND1S.bmp~
+COPY ~thepicturestandard\DH\CMDAV1S.bmp~               ~override\CMDAV1S.bmp~
+COPY ~thepicturestandard\DH\CMEL11S.bmp~               ~override\CMEL11S.bmp~
+COPY ~thepicturestandard\DH\CMEL12S.bmp~               ~override\CMEL12S.bmp~
+COPY ~thepicturestandard\DH\CMEL31S.bmp~               ~override\CMEL31S.bmp~
+COPY ~thepicturestandard\DH\CMERI1S.bmp~               ~override\CMERI1S.bmp~
+COPY ~thepicturestandard\DH\CMGEO1S.bmp~               ~override\CMGEO1S.bmp~
+COPY ~thepicturestandard\DH\CMGH81S.bmp~               ~override\CMGH81S.bmp~
+COPY ~thepicturestandard\DH\CMGHO1S.bmp~               ~override\CMGHO1S.bmp~
+COPY ~thepicturestandard\DH\CMISO1S.bmp~               ~override\CMISO1S.bmp~
+COPY ~thepicturestandard\DH\CMJON1S.bmp~               ~override\CMJON1S.bmp~
+COPY ~thepicturestandard\DH\CMJEN1S.bmp~               ~override\CMJEN1S.bmp~
+COPY ~thepicturestandard\DH\CMKIE1S.bmp~               ~override\CMKIE1S.bmp~
+COPY ~thepicturestandard\DH\CMMAD1S.bmp~               ~override\CMMAD1S.bmp~
+COPY ~thepicturestandard\DH\CMMIK1S.bmp~               ~override\CMMIK1S.bmp~
+COPY ~thepicturestandard\DH\CMMIR1M.bmp~               ~override\CMMIR1M.bmp~
+COPY ~thepicturestandard\DH\CMMIR1S.bmp~               ~override\CMMIR1S.bmp~
+COPY ~thepicturestandard\DH\CMMYS1S.bmp~               ~override\CMMYS1S.bmp~
+COPY ~thepicturestandard\DH\CMNAJ1S.bmp~               ~override\CMNAJ1S.bmp~
+COPY ~thepicturestandard\DH\CMNIKI.bmp~                ~override\CMNIKIM.bmp~
+COPY ~thepicturestandard\DH\CMNIKI.bmp~                ~override\CMNIKIS.bmp~
+COPY ~thepicturestandard\DH\CMPAU1S.bmp~               ~override\CMPAU1S.bmp~
+COPY ~thepicturestandard\DH\CMSCARSS.bmp~              ~override\CMSCARSS.bmp~
+COPY ~thepicturestandard\DH\CMSEL1S.bmp~               ~override\CMSEL1S.bmp~
+COPY ~thepicturestandard\DH\CMTAN1S.bmp~               ~override\CMTAN1S.bmp~
+COPY ~thepicturestandard\DH\CMTMORWL.bmp~              ~override\CMTMORWL.bmp~
+COPY ~thepicturestandard\DH\CMTMORWM.bmp~              ~override\CMTMORWM.bmp~
+COPY ~thepicturestandard\DH\CMTMORWS.bmp~              ~override\CMTMORWS.bmp~
+COPY ~thepicturestandard\DH\CMTRI1S.bmp~               ~override\CMTRI1S.bmp~
+COPY ~thepicturestandard\DH\CMTTOR.bmp~                ~override\CMTTORM.bmp~
+COPY ~thepicturestandard\DH\CMTTOR.bmp~                ~override\CMTTORS.bmp~
+COPY ~thepicturestandard\DH\CMWEN1S.bmp~               ~override\CMWEN1S.bmp~
+COPY ~thepicturestandard\DH\femf96L.bmp~               ~override\femf96L.bmp~
+
+
+BEGIN @4500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 4500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @40 // DarkHorizons (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\DH\CMAND1S.bmp~               ~override\CMAND1S.bmp~
+COPY ~thepicturestandard\DH\CMDAV1S.bmp~               ~override\CMDAV1S.bmp~
+COPY ~thepicturestandard\DH\CMEL11S.bmp~               ~override\CMEL11S.bmp~
+COPY ~thepicturestandard\DH\CMEL12S.bmp~               ~override\CMEL12S.bmp~
+COPY ~thepicturestandard\ADH\CMEL31S.bmp~              ~override\CMEL31S.bmp~
+COPY ~thepicturestandard\ADH\CMERI1S.bmp~              ~override\CMERI1S.bmp~
+COPY ~thepicturestandard\ADH\CMGEO1S.bmp~              ~override\CMGEO1S.bmp~
+COPY ~thepicturestandard\DH\CMGH81S.bmp~               ~override\CMGH81S.bmp~
+COPY ~thepicturestandard\DH\CMGHO1S.bmp~               ~override\CMGHO1S.bmp~
+COPY ~thepicturestandard\ADH\CMISO1S.bmp~              ~override\CMISO1S.bmp~
+COPY ~thepicturestandard\DH\CMJON1S.bmp~               ~override\CMJON1S.bmp~
+COPY ~thepicturestandard\DH\CMJEN1S.bmp~               ~override\CMJEN1S.bmp~
+COPY ~thepicturestandard\DH\CMKIE1S.bmp~               ~override\CMKIE1S.bmp~
+COPY ~thepicturestandard\ADH\CMMAD1S.bmp~              ~override\CMMAD1S.bmp~
+COPY ~thepicturestandard\ADH\CMMIK1S.bmp~              ~override\CMMIK1S.bmp~
+COPY ~thepicturestandard\DH\CMMIR1M.bmp~               ~override\CMMIR1M.bmp~
+COPY ~thepicturestandard\DH\CMMIR1S.bmp~               ~override\CMMIR1S.bmp~
+COPY ~thepicturestandard\DH\CMMYS1S.bmp~               ~override\CMMYS1S.bmp~
+COPY ~thepicturestandard\DH\CMNAJ1S.bmp~               ~override\CMNAJ1S.bmp~
+COPY ~thepicturestandard\ADH\CMNIKI.bmp~               ~override\CMNIKIL.bmp~
+COPY ~thepicturestandard\ADH\CMNIKI.bmp~               ~override\CMNIKIM.bmp~
+COPY ~thepicturestandard\ADH\CMNIKI.bmp~               ~override\CMNIKIS.bmp~
+COPY ~thepicturestandard\DH\CMPAU1S.bmp~               ~override\CMPAU1S.bmp~
+COPY ~thepicturestandard\DH\CMSCARSS.bmp~              ~override\CMSCARSS.bmp~
+COPY ~thepicturestandard\DH\CMSEL1S.bmp~               ~override\CMSEL1S.bmp~
+COPY ~thepicturestandard\DH\CMTAN1S.bmp~               ~override\CMTAN1S.bmp~
+COPY ~thepicturestandard\DH\CMTMORWL.bmp~              ~override\CMTMORWL.bmp~
+COPY ~thepicturestandard\DH\CMTMORWM.bmp~             ~override\CMTMORWM.bmp~
+COPY ~thepicturestandard\DH\CMTMORWM.bmp~             ~override\CMTMORWS.bmp~
+COPY ~thepicturestandard\DH\CMTRI1S.bmp~               ~override\CMTRI1S.bmp~
+COPY ~thepicturestandard\DH\CMTTOR.bmp~                ~override\CMTTORL.bmp~
+COPY ~thepicturestandard\DH\CMTTOR.bmp~                ~override\CMTTORM.bmp~
+COPY ~thepicturestandard\DH\CMTTOR.bmp~                ~override\CMTTORS.bmp~
+COPY ~thepicturestandard\DH\CMWEN1S.bmp~               ~override\CMWEN1S.bmp~
+COPY ~thepicturestandard\ADH\femf96L.bmp~              ~override\femf96L.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [DrizztSaga]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @5000 // Vanilla (this text will be for the option itself)
+DESIGNATED 5000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @50 // DrizztSaga (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\DrizztSaga\F_ARTEM.bmp~       ~override\F_ARTEMM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_ARTEM.bmp~       ~override\F_ARTEMS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_BRUEN.bmp~       ~override\F_BRUENM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_BRUEN.bmp~       ~override\F_BRUENS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_CATTIS.bmp~      ~override\F_CATTIS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_DRIZTS.bmp~      ~override\F_DRIZTS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_JARLA.bmp~       ~override\F_JARLAM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_JARLA.bmp~       ~override\F_JARLAS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_REGIS.bmp~       ~override\F_REGISM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_REGIS.bmp~       ~override\F_REGISS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_WULFGS.bmp~      ~override\F_WULFGS.bmp~
+
+
+BEGIN @5500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 5500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @50 // DrizztSaga (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\DrizztSaga\F_ARTEM.bmp~       ~override\F_ARTEMM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_ARTEM.bmp~       ~override\F_ARTEMS.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_BRUEN.bmp~      ~override\F_BRUENM.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_BRUEN.bmp~      ~override\F_BRUENS.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_CATTIL.bmp~     ~override\F_CATTIL.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_CATTIM.bmp~     ~override\F_CATTIM.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_CATTIS.bmp~     ~override\F_CATTIS.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_DRIZTL.bmp~      ~override\F_DRIZTL.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_DRIZTM.bmp~      ~override\F_DRIZTM.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_DRIZTS.bmp~      ~override\F_DRIZTS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_JARLA.bmp~       ~override\F_JARLAM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_JARLA.bmp~       ~override\F_JARLAS.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_REGIS.bmp~       ~override\F_REGISM.bmp~
+COPY ~thepicturestandard\DrizztSaga\F_REGIS.bmp~       ~override\F_REGISS.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_WULFGM.bmp~     ~override\F_WULFGM.bmp~
+COPY ~thepicturestandard\ADrizztSaga\F_WULFGS.bmp~     ~override\F_WULFGS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [DSotSC]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @6000 // Vanilla (this text will be for the option itself)
+DESIGNATED 6000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @60 // DSotSC (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\DSotSC\BARDO.bmp~             ~override\BARDOL.bmp~ 
+COPY ~thepicturestandard\DSotSC\BARDO.bmp~             ~override\BARDOM.bmp~ 
+COPY ~thepicturestandard\DSotSC\BARDO.bmp~             ~override\BARDOS.bmp~ 
+COPY ~thepicturestandard\DSotSC\BUB.bmp~               ~override\BUBL.bmp~ 
+COPY ~thepicturestandard\DSotSC\BUB.bmp~               ~override\BUBM.bmp~ 
+COPY ~thepicturestandard\DSotSC\BUB.bmp~               ~override\BUBS.bmp~ 
+COPY ~thepicturestandard\DSotSC\CONCHO.bmp~            ~override\CONCHOL.bmp~ 
+COPY ~thepicturestandard\DSotSC\CONCHO.bmp~            ~override\CONCHOM.bmp~ 
+COPY ~thepicturestandard\DSotSC\CONCHO.bmp~            ~override\CONCHOS.bmp~ 
+COPY ~thepicturestandard\DSotSC\CUCHOIN.bmp~           ~override\CUCHOINL.bmp~ 
+COPY ~thepicturestandard\DSotSC\CUCHOIN.bmp~           ~override\CUCHOINM.bmp~
+COPY ~thepicturestandard\DSotSC\CUCHOIN.bmp~           ~override\CUCHOINS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSLICHS.bmp~           ~override\DSLICHS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSOTHOS.bmp~           ~override\DSOTHOS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSSHARS.bmp~           ~override\DSSHARS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSVAMLDS.bmp~          ~override\DSVAMLDS.bmp~ 
+COPY ~thepicturestandard\DSotSC\FERTHG.bmp~            ~override\FERTHGL.bmp~ 
+COPY ~thepicturestandard\DSotSC\FERTHG.bmp~            ~override\FERTHGM.bmp~ 
+COPY ~thepicturestandard\DSotSC\FERTHG.bmp~            ~override\FERTHGS.bmp~ 
+COPY ~thepicturestandard\DSotSC\Jenna.bmp~             ~override\JennaL.bmp~ 
+COPY ~thepicturestandard\DSotSC\Jenna.bmp~             ~override\JennaM.bmp~ 
+COPY ~thepicturestandard\DSotSC\Jenna.bmp~             ~override\JennaS.bmp~ 
+COPY ~thepicturestandard\DSotSC\JETLAYA.bmp~           ~override\JETLAYAL.bmp~ 
+COPY ~thepicturestandard\DSotSC\JETLAYA.bmp~           ~override\JETLAYAM.bmp~ 
+COPY ~thepicturestandard\DSotSC\JETLAYA.bmp~           ~override\JETLAYAS.bmp~  
+COPY ~thepicturestandard\DSotSC\KEIRIA.bmp~            ~override\KEIRIAL.bmp~ 
+COPY ~thepicturestandard\DSotSC\KEIRIA.bmp~            ~override\KEIRIAM.bmp~ 
+COPY ~thepicturestandard\DSotSC\KEIRIA.bmp~            ~override\KEIRIAS.bmp~  
+COPY ~thepicturestandard\DSotSC\Morik.bmp~             ~override\MorikL.bmp~ 
+COPY ~thepicturestandard\DSotSC\Morik.bmp~             ~override\MorikM.bmp~ 
+COPY ~thepicturestandard\DSotSC\Morik.bmp~             ~override\MorikS.bmp~  
+COPY ~thepicturestandard\DSotSC\SKEEZR.bmp~            ~override\SKEEZRL.bmp~ 
+COPY ~thepicturestandard\DSotSC\SKEEZR.bmp~            ~override\SKEEZRM.bmp~ 
+COPY ~thepicturestandard\DSotSC\SKEEZR.bmp~            ~override\SKEEZRS.bmp~  
+COPY ~thepicturestandard\DSotSC\THORF.bmp~             ~override\THORFL.bmp~ 
+COPY ~thepicturestandard\DSotSC\THORF.bmp~             ~override\THORFM.bmp~
+COPY ~thepicturestandard\DSotSC\THORF.bmp~             ~override\THORFS.bmp~
+
+
+BEGIN @6500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 6500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @60 // DSotSC (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ADSotSC\BARDO.bmp~            ~override\BARDOL.bmp~ 
+COPY ~thepicturestandard\ADSotSC\BARDO.bmp~            ~override\BARDOM.bmp~ 
+COPY ~thepicturestandard\ADSotSC\BARDO.bmp~            ~override\BARDOS.bmp~ 
+COPY ~thepicturestandard\ADSotSC\BUB.bmp~              ~override\BUBL.bmp~ 
+COPY ~thepicturestandard\ADSotSC\BUB.bmp~              ~override\BUBM.bmp~ 
+COPY ~thepicturestandard\ADSotSC\BUB.bmp~              ~override\BUBS.bmp~ 
+COPY ~thepicturestandard\DSotSC\CONCHO.bmp~            ~override\CONCHOL.bmp~ 
+COPY ~thepicturestandard\DSotSC\CONCHO.bmp~            ~override\CONCHOM.bmp~ 
+COPY ~thepicturestandard\DSotSC\CONCHO.bmp~            ~override\CONCHOS.bmp~ 
+COPY ~thepicturestandard\DSotSC\CUCHOIN.bmp~           ~override\CUCHOINL.bmp~ 
+COPY ~thepicturestandard\DSotSC\CUCHOIN.bmp~           ~override\CUCHOINM.bmp~
+COPY ~thepicturestandard\DSotSC\CUCHOIN.bmp~           ~override\CUCHOINS.bmp~ 
+COPY ~thepicturestandard\ADSotSC\DSLICHS.bmp~          ~override\DSLICHS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSOTHOS.bmp~           ~override\DSOTHOS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSSHARS.bmp~           ~override\DSSHARS.bmp~ 
+COPY ~thepicturestandard\DSotSC\DSVAMLDS.bmp~          ~override\DSVAMLDS.bmp~ 
+COPY ~thepicturestandard\ADSotSC\FERTHG.bmp~           ~override\FERTHGL.bmp~ 
+COPY ~thepicturestandard\ADSotSC\FERTHG.bmp~           ~override\FERTHGM.bmp~ 
+COPY ~thepicturestandard\ADSotSC\FERTHG.bmp~           ~override\FERTHGS.bmp~ 
+COPY ~thepicturestandard\DSotSC\Jenna.bmp~             ~override\JennaL.bmp~ 
+COPY ~thepicturestandard\DSotSC\Jenna.bmp~             ~override\JennaM.bmp~ 
+COPY ~thepicturestandard\DSotSC\Jenna.bmp~             ~override\JennaS.bmp~ 
+COPY ~thepicturestandard\DSotSC\JETLAYA.bmp~           ~override\JETLAYAL.bmp~ 
+COPY ~thepicturestandard\DSotSC\JETLAYA.bmp~           ~override\JETLAYAM.bmp~ 
+COPY ~thepicturestandard\DSotSC\JETLAYA.bmp~           ~override\JETLAYAS.bmp~  
+COPY ~thepicturestandard\DSotSC\KEIRIA.bmp~            ~override\KEIRIAL.bmp~ 
+COPY ~thepicturestandard\DSotSC\KEIRIA.bmp~            ~override\KEIRIAM.bmp~ 
+COPY ~thepicturestandard\DSotSC\KEIRIA.bmp~            ~override\KEIRIAS.bmp~  
+COPY ~thepicturestandard\DSotSC\Morik.bmp~             ~override\MorikL.bmp~ 
+COPY ~thepicturestandard\DSotSC\Morik.bmp~             ~override\MorikM.bmp~ 
+COPY ~thepicturestandard\DSotSC\Morik.bmp~             ~override\MorikS.bmp~  
+COPY ~thepicturestandard\DSotSC\SKEEZR.bmp~            ~override\SKEEZRL.bmp~ 
+COPY ~thepicturestandard\DSotSC\SKEEZR.bmp~            ~override\SKEEZRM.bmp~ 
+COPY ~thepicturestandard\DSotSC\SKEEZR.bmp~            ~override\SKEEZRS.bmp~  
+COPY ~thepicturestandard\DSotSC\THORF.bmp~             ~override\THORFL.bmp~ 
+COPY ~thepicturestandard\DSotSC\THORF.bmp~             ~override\THORFM.bmp~
+COPY ~thepicturestandard\DSotSC\THORF.bmp~             ~override\THORFS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [EilistraeesSong]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @7000 // Vanilla (this text will be for the option itself)
+DESIGNATED 7000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @70 // EilistraeesSong (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\EilistaeesSong\ESxCD.bmp~     ~override\ESxCD.bmp~
+COPY ~thepicturestandard\EilistaeesSong\ESxShas.bmp~   ~override\ESxShas.bmp~
+COPY ~thepicturestandard\EilistaeesSong\MHs.bmp~       ~override\MHs.bmp~
+COPY ~thepicturestandard\EilistaeesSong\T1s.bmp~       ~override\T1s.bmp~
+COPY ~thepicturestandard\EilistaeesSong\T2s.bmp~       ~override\T2s.bmp~
+
+BEGIN @7500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 7500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @70 // EilistraeesSong (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AEilistaeesSong\ESxCD.bmp~    ~override\ESxCD.bmp~
+COPY ~thepicturestandard\AEilistaeesSong\ESxShas.bmp~  ~override\ESxShas.bmp~
+COPY ~thepicturestandard\EilistaeesSong\MHs.bmp~       ~override\MHs.bmp~
+COPY ~thepicturestandard\EilistaeesSong\T1s.bmp~       ~override\T1s.bmp~
+COPY ~thepicturestandard\AEilistaeesSong\T2s.bmp~      ~override\T2s.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Innershade]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @8000 // Vanilla (this text will be for the option itself)
+DESIGNATED 8000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @80 // Innershade (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Innershade\9xBar.bmp~         ~override\9xBar.bmp~
+COPY ~thepicturestandard\Innershade\9xDream.bmp~       ~override\9xDream.bmp~
+COPY ~thepicturestandard\Innershade\9xOLady.bmp~       ~override\9xOLady.bmp~
+COPY ~thepicturestandard\Innershade\9xPatr.bmp~        ~override\9xPatr.bmp~
+COPY ~thepicturestandard\Innershade\9xSTC.bmp~         ~override\9xSTC.bmp~
+COPY ~thepicturestandard\Innershade\9xWitch.bmp~       ~override\9xWitch.bmp~
+
+BEGIN @8500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 8500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @80 // Innershade (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Innershade\9xBar.bmp~         ~override\9xBar.bmp~
+COPY ~thepicturestandard\AInnershade\9xDream.bmp~      ~override\9xDream.bmp~
+COPY ~thepicturestandard\AInnershade\9xOLady.bmp~      ~override\9xOLady.bmp~
+COPY ~thepicturestandard\Innershade\9xPatr.bmp~        ~override\9xPatr.bmp~
+COPY ~thepicturestandard\Innershade\9xSTC.bmp~         ~override\9xSTC.bmp~
+COPY ~thepicturestandard\AInnershade\9xWitch.bmp~      ~override\9xWitch.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [IShallNeverForget]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @9000 // Vanilla (this text will be for the option itself)
+DESIGNATED 9000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @90 // IShallNeverForget (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ISNF\isnfxEn.bmp~             ~override\isnfxEn.bmp~
+COPY ~thepicturestandard\ISNF\ISNFxOr.bmp~             ~override\ISNFxOr.bmp~
+COPY ~thepicturestandard\ISNF\ISNFxSe.bmp~             ~override\ISNFxSe.bmp~
+
+BEGIN @9500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 9500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @90 // IShallNeverForget (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ISNF\isnfxEn.bmp~             ~override\isnfxEn.bmp~
+COPY ~thepicturestandard\AISNF\ISNFxOr.bmp~            ~override\ISNFxOr.bmp~
+COPY ~thepicturestandard\AISNF\ISNFxSe.bmp~            ~override\ISNFxSe.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [RogueRebalancing]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @10000 // Vanilla (this text will be for the option itself)
+DESIGNATED 10000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @100 // RogueRebalancing (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\RR\rr#arans.bmp~              ~override\rr#arans.bmp~
+COPY ~thepicturestandard\RR\rr#arkns.bmp~              ~override\rr#arkns.bmp~
+COPY ~thepicturestandard\RR\rr#arlds.bmp~              ~override\rr#arlds.bmp~
+COPY ~thepicturestandard\RR\rr#bodk.bmp~               ~override\rr#bodk.bmp~
+COPY ~thepicturestandard\RR\rr#boots.bmp~              ~override\rr#boots.bmp~
+COPY ~thepicturestandard\RR\rr#dedrs.bmp~              ~override\rr#dedrs.bmp~
+COPY ~thepicturestandard\RR\rr#gaels.bmp~              ~override\rr#gaels.bmp~
+COPY ~thepicturestandard\RR\rr#grok.bmp~               ~override\rr#grok.bmp~
+COPY ~thepicturestandard\RR\rr#hazs.bmp~               ~override\rr#hazs.bmp~
+COPY ~thepicturestandard\RR\rr#kert.bmp~               ~override\rr#kert.bmp~
+COPY ~thepicturestandard\RR\rr#marin.bmp~              ~override\rr#marin.bmp~
+COPY ~thepicturestandard\RR\rr#mooks.bmp~              ~override\rr#mooks.bmp~
+COPY ~thepicturestandard\RR\rr#palrs.bmp~              ~override\rr#palrs.bmp~
+COPY ~thepicturestandard\RR\rr#seli.bmp~               ~override\rr#seli.bmp~
+COPY ~thepicturestandard\RR\rr#tizzs.bmp~              ~override\rr#tizzs.bmp~
+COPY ~thepicturestandard\RR\rr#vend.bmp~               ~override\rr#vend.bmp~
+COPY ~thepicturestandard\RR\rr#zaer.bmp~               ~override\rr#zaer.bmp~
+
+BEGIN @10500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 10500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @100 // RogueRebalancing (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\RR\rr#arans.bmp~              ~override\rr#arans.bmp~
+COPY ~thepicturestandard\RR\rr#arkns.bmp~              ~override\rr#arkns.bmp~
+COPY ~thepicturestandard\RR\rr#arlds.bmp~              ~override\rr#arlds.bmp~
+COPY ~thepicturestandard\RR\rr#bodk.bmp~               ~override\rr#bodk.bmp~
+COPY ~thepicturestandard\RR\rr#boots.bmp~              ~override\rr#boots.bmp~
+COPY ~thepicturestandard\RR\rr#dedrs.bmp~              ~override\rr#dedrs.bmp~
+COPY ~thepicturestandard\ARR\rr#gaels.bmp~             ~override\rr#gaels.bmp~
+COPY ~thepicturestandard\RR\rr#grok.bmp~               ~override\rr#grok.bmp~
+COPY ~thepicturestandard\RR\rr#hazs.bmp~               ~override\rr#hazs.bmp~
+COPY ~thepicturestandard\RR\rr#kert.bmp~               ~override\rr#kert.bmp~
+COPY ~thepicturestandard\ARR\rr#marin.bmp~             ~override\rr#marin.bmp~
+COPY ~thepicturestandard\ARR\rr#mooks.bmp~             ~override\rr#mooks.bmp~
+COPY ~thepicturestandard\RR\rr#palrs.bmp~              ~override\rr#palrs.bmp~
+COPY ~thepicturestandard\RR\rr#seli.bmp~               ~override\rr#seli.bmp~
+COPY ~thepicturestandard\RR\rr#tizzs.bmp~              ~override\rr#tizzs.bmp~
+COPY ~thepicturestandard\ARR\rr#vend.bmp~              ~override\rr#vend.bmp~
+COPY ~thepicturestandard\RR\rr#zaer.bmp~               ~override\rr#zaer.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Sellswords]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] LoreAlternative
+
+
+BEGIN @11000 // Vanilla (this text will be for the option itself)
+DESIGNATED 11000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @110 // Sellswords (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Sellswords\O#LLART.bmp~             ~override\O#LLARTE.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLART.bmp~             ~override\O#LLARTE_EE.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLJAR.bmp~             ~override\O#LLJARL.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLJAR.bmp~             ~override\O#LLJARL_EE.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLKIM.bmp~             ~override\O#LLKIMM.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLKIM.bmp~             ~override\O#LLKIMM_EE.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLMAT.bmp~             ~override\O#LLMATR.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLMAT.bmp~             ~override\O#LLMATR_EE.bmp~
+
+BEGIN @11500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 11500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @110 // Sellswords (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ASellswords\O#LLART.bmp~            ~override\O#LLARTE.bmp~
+COPY ~thepicturestandard\ASellswords\O#LLART.bmp~            ~override\O#LLARTE_EE.bmp~
+COPY ~thepicturestandard\ASellswords\O#LLJAR.bmp~            ~override\O#LLJARL.bmp~
+COPY ~thepicturestandard\ASellswords\O#LLJAR.bmp~            ~override\O#LLJARL_EE.bmp~
+COPY ~thepicturestandard\ASellswords\O#LLKIM.bmp~            ~override\O#LLKIMM.bmp~
+COPY ~thepicturestandard\ASellswords\O#LLKIM.bmp~            ~override\O#LLKIMM_EE.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLMAT.bmp~            ~override\O#LLMATR.bmp~
+COPY ~thepicturestandard\Sellswords\O#LLMAT.bmp~            ~override\O#LLMATR_EE.bmp~
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [TalesOfTheDeepGardens]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Lore Alternative
+
+
+BEGIN @12000 // Vanilla (this text will be for the option itself)
+DESIGNATED 12000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @120 // TalesOfTheDeepGardens (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\TotDG\0xBLord.bmp~                  ~override\0xBLord.bmp~
+COPY ~thepicturestandard\TotDG\0xDream.bmp~                  ~override\0xDream.bmp~
+COPY ~thepicturestandard\TotDG\0xEld.bmp~                    ~override\0xEld.bmp~
+COPY ~thepicturestandard\TotDG\0xGW.bmp~                     ~override\0xGW.bmp~
+COPY ~thepicturestandard\TotDG\0xLov1.bmp~                   ~override\0xLov1.bmp~
+COPY ~thepicturestandard\TotDG\0xLov2.bmp~                   ~override\0xLov2.bmp~
+COPY ~thepicturestandard\TotDG\0xOld.bmp~                    ~override\0xOld.bmp~
+COPY ~thepicturestandard\TotDG\0xRW.bmp~                     ~override\0xRW.bmp~
+COPY ~thepicturestandard\TotDG\0xSW.bmp~                     ~override\0xSW.bmp~
+
+BEGIN @12500 // LoreAlternative (this text will be for the option itself)
+DESIGNATED 12500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @120 // TalesOfTheDeepGardens (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ATotDG\0xBLord.bmp~                 ~override\0xBLord.bmp~
+COPY ~thepicturestandard\ATotDG\0xDream.bmp~                 ~override\0xDream.bmp~
+COPY ~thepicturestandard\TotDG\0xEld.bmp~                    ~override\0xEld.bmp~
+COPY ~thepicturestandard\TotDG\0xGW.bmp~                     ~override\0xGW.bmp~
+COPY ~thepicturestandard\ATotDG\0xLov1.bmp~                  ~override\0xLov1.bmp~
+COPY ~thepicturestandard\TotDG\0xLov2.bmp~                   ~override\0xLov2.bmp~
+COPY ~thepicturestandard\ATotDG\0xOld.bmp~                   ~override\0xOld.bmp~
+COPY ~thepicturestandard\ATotDG\0xRW.bmp~                    ~override\0xRW.bmp~
+COPY ~thepicturestandard\ATotDG\0xSW.bmp~                    ~override\0xSW.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [TwasASlowBoat]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Lore Alternative
+
+
+BEGIN @13000 // Vanilla (this text will be for the option itself)
+DESIGNATED 13000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @130 // TwasASlowBoat (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\TwasB\Monk01_S.bmp~                 ~override\Monk01_S.bmp~
+COPY ~thepicturestandard\TwasB\Sirene_S.bmp~                 ~override\Sirene_S.bmp~
+
+BEGIN @13500 // Vanilla (this text will be for the option itself)
+DESIGNATED 13500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @130 // TwasASlowBoat (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ATwasB\Monk01_S.bmp~                 ~override\Monk01_S.bmp~
+COPY ~thepicturestandard\ATwasB\Sirene_S.bmp~                 ~override\Sirene_S.bmp~
+
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Finch]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Alternative
+
+
+BEGIN @14000 // Vanilla (this text will be for the option itself)
+DESIGNATED 14000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @140 // Finch (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\NPCompanions\SUFINCH.bmp~           ~override\SUFINCHL.bmp~
+COPY ~thepicturestandard\NPCompanions\SUFINCH.bmp~           ~override\SUFINCHM.bmp~
+COPY ~thepicturestandard\NPCompanions\SUFINCH.bmp~           ~override\SUFINCHS.bmp~
+
+
+BEGIN @14500 // Alternative (this text will be for the option itself)
+DESIGNATED 14500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @140 // Finch (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ANPCompanions\SUFINCHL.bmp~         ~override\SUFINCHL.bmp~
+COPY ~thepicturestandard\ANPCompanions\SUFINCHM.bmp~         ~override\SUFINCHM.bmp~
+COPY ~thepicturestandard\ANPCompanions\SUFINCHS.bmp~         ~override\SUFINCHS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Gavin]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Alternative
+
+
+BEGIN @15000 // Vanilla
+DESIGNATED 15000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @150 // Gavin (this will be the header text for the subcomponent group and must match other subcomponents)
+
+
+COPY ~thepicturestandard\Gavin\bbertrs.bmp~                 ~override\bbertrs.bmp~
+COPY ~thepicturestandard\Gavin\bdarlos.bmp~                 ~override\bdarlos.bmp~
+COPY ~thepicturestandard\Gavin\bevies.bmp~                  ~override\bevies.bmp~
+COPY ~thepicturestandard\Gavin\bGavin.bmp~                  ~override\bGavinL.bmp~
+COPY ~thepicturestandard\Gavin\bGavin.bmp~                  ~override\bGavinM.bmp~
+COPY ~thepicturestandard\Gavin\bGavin.bmp~                  ~override\bGavinS.bmp~
+COPY ~thepicturestandard\Gavin\bgustas.bmp~                 ~override\bgustas.bmp~
+COPY ~thepicturestandard\Gavin\bjoluns.bmp~                 ~override\bjoluns.bmp~
+COPY ~thepicturestandard\Gavin\bkittys.bmp~                 ~override\bkittys.bmp~
+COPY ~thepicturestandard\Gavin\bpennys.bmp~                 ~override\bpennys.bmp~
+COPY ~thepicturestandard\Gavin\breeds.bmp~                  ~override\breeds.bmp~
+COPY ~thepicturestandard\Gavin\bvalers.bmp~                 ~override\bvalers.bmp~
+
+BEGIN @15500 // Alternative
+DESIGNATED 15500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @150 // Gavin (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AGavin\bbertrs.bmp~                 ~override\bbertrs.bmp~
+COPY ~thepicturestandard\Gavin\bdarlos.bmp~                  ~override\bdarlos.bmp~
+COPY ~thepicturestandard\Gavin\bevies.bmp~                   ~override\bevies.bmp~
+COPY ~thepicturestandard\AGavin\bGavin.bmp~                  ~override\bGavinL.bmp~
+COPY ~thepicturestandard\AGavin\bGavin.bmp~                  ~override\bGavinM.bmp~
+COPY ~thepicturestandard\AGavin\bGavin.bmp~                  ~override\bGavinS.bmp~
+COPY ~thepicturestandard\AGavin\bgustas.bmp~                 ~override\bgustas.bmp~
+COPY ~thepicturestandard\AGavin\bjoluns.bmp~                 ~override\bjoluns.bmp~
+COPY ~thepicturestandard\AGavin\bkittys.bmp~                 ~override\bkittys.bmp~
+COPY ~thepicturestandard\Gavin\bpennys.bmp~                  ~override\bpennys.bmp~
+COPY ~thepicturestandard\AGavin\breeds.bmp~                  ~override\breeds.bmp~
+COPY ~thepicturestandard\AGavin\bvalers.bmp~                 ~override\bvalers.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Indira]?
+// [I]nstall, [S]kip or [Q]uit
+
+
+BEGIN @160 // Indira
+DESIGNATED 16000
+
+COPY ~thepicturestandard\NPCompanions\J#INDI.bmp~            ~override\J#INDIL.bmp~
+COPY ~thepicturestandard\NPCompanions\J#INDI.bmp~            ~override\J#INDIM.bmp~
+COPY ~thepicturestandard\NPCompanions\J#INDI.bmp~            ~override\J#INDIS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Isra]?
+// [I]nstall, [S]kip or [Q]uit
+
+
+BEGIN @170 // Isra
+DESIGNATED 17000
+
+COPY ~thepicturestandard\NPCompanions\RH#ISRA.bmp~           ~override\RH#ISRAL.bmp~
+COPY ~thepicturestandard\NPCompanions\RH#ISRA.bmp~           ~override\RH#ISRAM.bmp~
+COPY ~thepicturestandard\NPCompanions\RH#ISRA.bmp~           ~override\RH#ISRAS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Valerie]?
+// [I]nstall, [S]kip or [Q]uit
+
+
+BEGIN @180 // Valerie
+DESIGNATED 18000
+
+COPY ~thepicturestandard\NPCompanions\t2val.bmp~             ~override\t2valL.bmp~
+COPY ~thepicturestandard\NPCompanions\t2val.bmp~             ~override\t2valM.bmp~
+COPY ~thepicturestandard\NPCompanions\t2val.bmp~             ~override\t2valS.bmp~
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [TheWhiteQueen]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Alternative
+
+
+BEGIN @19000 // Vanilla (this text will be for the option itself)
+DESIGNATED 19000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @190 // TheWhiteQueen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\TWQ\WQxEnt.bmp~           ~override\WQxEnt.bmp~
+COPY ~thepicturestandard\TWQ\WQxHag.bmp~           ~override\WQxHag.bmp~
+COPY ~thepicturestandard\TWQ\WQxN.bmp~             ~override\WQxN.bmp~
+COPY ~thepicturestandard\TWQ\WQxQ.bmp~             ~override\WQxQ.bmp~
+COPY ~thepicturestandard\TWQ\WQxS.bmp~             ~override\WQxS.bmp~
+COPY ~thepicturestandard\TWQ\WQxTow.bmp~           ~override\WQxTow.bmp~
+COPY ~thepicturestandard\TWQ\WQxTre.bmp~           ~override\WQxTre.bmp~
+
+BEGIN @19500 // Alternative (this text will be for the option itself)
+DESIGNATED 19500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @190 // TheWhiteQueen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ATWQ\WQxEnt.bmp~           ~override\WQxEnt.bmp~
+COPY ~thepicturestandard\ATWQ\WQxHag.bmp~           ~override\WQxHag.bmp~
+COPY ~thepicturestandard\TWQ\WQxN.bmp~              ~override\WQxN.bmp~
+COPY ~thepicturestandard\TWQ\WQxQ.bmp~              ~override\WQxQ.bmp~
+COPY ~thepicturestandard\ATWQ\WQxS.bmp~             ~override\WQxS.bmp~
+COPY ~thepicturestandard\TWQ\WQxTow.bmp~            ~override\WQxTow.bmp~
+COPY ~thepicturestandard\TWQ\WQxTre.bmp~            ~override\WQxTre.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [TheDarkestDay]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Alternative
+
+
+BEGIN @20000 // Vanilla (this text will be for the option itself)
+DESIGNATED 20000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @200 // TheDarkestDay (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\TDD\ALUSTS.bmp~           ~override\ALUSTS.bmp~
+COPY ~thepicturestandard\TDD\ARANS.bmp~            ~override\ARANS.bmp~
+COPY ~thepicturestandard\TDD\ARTYS.bmp~            ~override\ARTYS.bmp~
+COPY ~thepicturestandard\TDD\AVAUNL.bmp~           ~override\AVAUNL.bmp~
+COPY ~thepicturestandard\TDD\AVAUNS.bmp~           ~override\AVAUNS.bmp~
+COPY ~thepicturestandard\TDD\BANSHEES.bmp~         ~override\BANSHEES.bmp~
+COPY ~thepicturestandard\TDD\BENDALS.bmp~          ~override\BENDALS.bmp~
+COPY ~thepicturestandard\TDD\BM006L.bmp~           ~override\BM006L.bmp~
+COPY ~thepicturestandard\TDD\BM006L1.bmp~          ~override\BM006L1.bmp~
+COPY ~thepicturestandard\TDD\BM006S.bmp~           ~override\BM006S.bmp~
+COPY ~thepicturestandard\TDD\BM006S1.bmp~          ~override\BM006S1.bmp~
+COPY ~thepicturestandard\TDD\CM036L.bmp~           ~override\CM036L.bmp~
+COPY ~thepicturestandard\TDD\CM036S.bmp~           ~override\CM036S.bmp~
+COPY ~thepicturestandard\TDD\DINANS.bmp~           ~override\DINANS.bmp~
+COPY ~thepicturestandard\TDD\DM056S.bmp~           ~override\DM056S.bmp~
+COPY ~thepicturestandard\TDD\DRACOS.bmp~           ~override\DRACOS.bmp~
+COPY ~thepicturestandard\TDD\DRAGBLS.bmp~          ~override\DRAGBLS.bmp~
+COPY ~thepicturestandard\TDD\DRAGBRS.bmp~          ~override\DRAGBRS.bmp~
+COPY ~thepicturestandard\TDD\DRAGGLDS.bmp~         ~override\DRAGGLDS.bmp~
+COPY ~thepicturestandard\TDD\DRAGWS.bmp~           ~override\DRAGWS.bmp~
+COPY ~thepicturestandard\TDD\DRIZZTS.bmp~          ~override\DRIZZTS.bmp~
+COPY ~thepicturestandard\TDD\ELMINS.bmp~           ~override\ELMINS.bmp~
+COPY ~thepicturestandard\TDD\ERRTUS.bmp~           ~override\ERRTUS.bmp~
+COPY ~thepicturestandard\TDD\FIREBEDS.bmp~         ~override\FIREBEDS.bmp~
+COPY ~thepicturestandard\TDD\FIRKS.bmp~            ~override\FIRKS.bmp~
+COPY ~thepicturestandard\TDD\FLEES.bmp~            ~override\FLEES.bmp~
+COPY ~thepicturestandard\TDD\GANDARS.bmp~          ~override\GANDARS.bmp~
+COPY ~thepicturestandard\TDD\GM110S.bmp~           ~override\GM110S.bmp~
+COPY ~thepicturestandard\TDD\HORNS.bmp~            ~override\HORNS.bmp~
+COPY ~thepicturestandard\TDD\IWDW1S.bmp~           ~override\IWDW1S.bmp~
+COPY ~thepicturestandard\TDD\IWHUM1L.bmp~          ~override\IWHUM1L.bmp~
+COPY ~thepicturestandard\TDD\IWHUM1S.bmp~          ~override\IWHUM1S.bmp~
+COPY ~thepicturestandard\TDD\IWHUM1S1.bmp~         ~override\IWHUM1S1.bmp~
+COPY ~thepicturestandard\TDD\KARANS.bmp~           ~override\KARANS.bmp~
+COPY ~thepicturestandard\TDD\KHELBS.bmp~           ~override\KHELBS.bmp~
+COPY ~thepicturestandard\TDD\M60S.bmp~             ~override\M60S.bmp~
+COPY ~thepicturestandard\TDD\MAEVARS.bmp~          ~override\MAEVARS.bmp~
+COPY ~thepicturestandard\TDD\MAYAM.bmp~            ~override\MAYAM.bmp~
+COPY ~thepicturestandard\TDD\MAYAS.bmp~            ~override\MAYAS.bmp~
+COPY ~thepicturestandard\TDD\MINSKELL.bmp~         ~override\MINSKELL.bmp~
+COPY ~thepicturestandard\TDD\MINSKELS.bmp~         ~override\MINSKELS.bmp~
+COPY ~thepicturestandard\TDD\ORGOTHS.bmp~          ~override\ORGOTHS.bmp~
+COPY ~thepicturestandard\TDD\PHLYDIAS.bmp~         ~override\PHLYDIAS.bmp~
+COPY ~thepicturestandard\TDD\PROPHETS.bmp~         ~override\PROPHETS.bmp~
+COPY ~thepicturestandard\TDD\QUAD3S.bmp~           ~override\QUAD3S.bmp~
+COPY ~thepicturestandard\TDD\RAVENM.bmp~           ~override\RAVENM.bmp~
+COPY ~thepicturestandard\TDD\RAVENS.bmp~           ~override\RAVENS.bmp~
+COPY ~thepicturestandard\TDD\RENALS.bmp~           ~override\RENALS.bmp~
+COPY ~thepicturestandard\TDD\SHADS.bmp~            ~override\SHADS.bmp~
+COPY ~thepicturestandard\TDD\TARTARS.bmp~          ~override\TARTARS.bmp~
+COPY ~thepicturestandard\TDD\TETHXS.bmp~           ~override\TETHXS.bmp~
+COPY ~thepicturestandard\TDD\tge_066l.bmp~         ~override\tge_066l.bmp~
+COPY ~thepicturestandard\TDD\TGE_109S.bmp~         ~override\TGE_109S.bmp~
+COPY ~thepicturestandard\TDD\VESINEL.bmp~          ~override\VESINEL.bmp~
+COPY ~thepicturestandard\TDD\VESINES.bmp~          ~override\VESINES.bmp~
+COPY ~thepicturestandard\TDD\WM152S.bmp~           ~override\WM152S.bmp~
+COPY ~thepicturestandard\TDD\WM484L.bmp~           ~override\WM484L.bmp~
+COPY ~thepicturestandard\TDD\WM484S.bmp~           ~override\WM484S.bmp~
+COPY ~thepicturestandard\TDD\WM489L.bmp~           ~override\WM489L.bmp~
+COPY ~thepicturestandard\TDD\WM489S.bmp~           ~override\WM489S.bmp~
+COPY ~thepicturestandard\TDD\X1ORCS.bmp~           ~override\X1ORCS.bmp~
+
+BEGIN @20500 // Alternative (this text will be for the option itself)
+DESIGNATED 20500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @200 // TheDarkestDay (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\TDD\ALUSTS.bmp~           ~override\ALUSTS.bmp~
+COPY ~thepicturestandard\TDD\ARANS.bmp~            ~override\ARANS.bmp~
+COPY ~thepicturestandard\TDD\ARTYS.bmp~            ~override\ARTYS.bmp~
+COPY ~thepicturestandard\TDD\AVAUNL.bmp~           ~override\AVAUNL.bmp~
+COPY ~thepicturestandard\TDD\AVAUNS.bmp~           ~override\AVAUNS.bmp~
+COPY ~thepicturestandard\ATDD\BANSHEES.bmp~        ~override\BANSHEES.bmp~
+COPY ~thepicturestandard\ATDD\BENDALS.bmp~         ~override\BENDALS.bmp~
+COPY ~thepicturestandard\ATDD\BM006L.bmp~          ~override\BM006L.bmp~
+COPY ~thepicturestandard\TDD\BM006L1.bmp~          ~override\BM006L1.bmp~
+COPY ~thepicturestandard\ATDD\BM006S.bmp~          ~override\BM006S.bmp~
+COPY ~thepicturestandard\TDD\BM006S1.bmp~          ~override\BM006S1.bmp~
+COPY ~thepicturestandard\TDD\CM036L.bmp~           ~override\CM036L.bmp~
+COPY ~thepicturestandard\TDD\CM036S.bmp~           ~override\CM036S.bmp~
+COPY ~thepicturestandard\TDD\DINANS.bmp~           ~override\DINANS.bmp~
+COPY ~thepicturestandard\TDD\DM056S.bmp~           ~override\DM056S.bmp~
+COPY ~thepicturestandard\TDD\DRACOS.bmp~           ~override\DRACOS.bmp~
+COPY ~thepicturestandard\ATDD\DRAGBLS.bmp~         ~override\DRAGBLS.bmp~
+COPY ~thepicturestandard\ATDD\DRAGBRS.bmp~         ~override\DRAGBRS.bmp~
+COPY ~thepicturestandard\ATDD\DRAGGLDS.bmp~        ~override\DRAGGLDS.bmp~
+COPY ~thepicturestandard\ATDD\DRAGWS.bmp~          ~override\DRAGWS.bmp~
+COPY ~thepicturestandard\ATDD\DRIZZTS.bmp~         ~override\DRIZZTS.bmp~
+COPY ~thepicturestandard\ATDD\ELMINS.bmp~          ~override\ELMINS.bmp~
+COPY ~thepicturestandard\ATDD\ERRTUS.bmp~          ~override\ERRTUS.bmp~
+COPY ~thepicturestandard\ATDD\FIREBEDS.bmp~        ~override\FIREBEDS.bmp~
+COPY ~thepicturestandard\ATDD\FIRKS.bmp~           ~override\FIRKS.bmp~
+COPY ~thepicturestandard\ATDD\FLEES.bmp~           ~override\FLEES.bmp~
+COPY ~thepicturestandard\ATDD\GANDARS.bmp~         ~override\GANDARS.bmp~
+COPY ~thepicturestandard\TDD\GM110S.bmp~           ~override\GM110S.bmp~
+COPY ~thepicturestandard\TDD\HORNS.bmp~            ~override\HORNS.bmp~
+COPY ~thepicturestandard\TDD\IWDW1S.bmp~           ~override\IWDW1S.bmp~
+COPY ~thepicturestandard\ATDD\IWHUM1L.bmp~         ~override\IWHUM1L.bmp~
+COPY ~thepicturestandard\ATDD\IWHUM1S.bmp~         ~override\IWHUM1S.bmp~
+COPY ~thepicturestandard\ATDD\IWHUM1S1.bmp~        ~override\IWHUM1S1.bmp~
+COPY ~thepicturestandard\ATDD\KARANS.bmp~          ~override\KARANS.bmp~
+COPY ~thepicturestandard\TDD\KHELBS.bmp~           ~override\KHELBS.bmp~
+COPY ~thepicturestandard\ATDD\M60S.bmp~            ~override\M60S.bmp~
+COPY ~thepicturestandard\ATDD\MAEVARS.bmp~         ~override\MAEVARS.bmp~
+COPY ~thepicturestandard\ATDD\MAYAM.bmp~           ~override\MAYAM.bmp~
+COPY ~thepicturestandard\ATDD\MAYAS.bmp~           ~override\MAYAS.bmp~
+COPY ~thepicturestandard\ATDD\MINSKELL.bmp~        ~override\MINSKELL.bmp~
+COPY ~thepicturestandard\ATDD\MINSKELS.bmp~        ~override\MINSKELS.bmp~
+COPY ~thepicturestandard\ATDD\ORGOTHS.bmp~         ~override\ORGOTHS.bmp~
+COPY ~thepicturestandard\TDD\PHLYDIAS.bmp~         ~override\PHLYDIAS.bmp~
+COPY ~thepicturestandard\TDD\PROPHETS.bmp~         ~override\PROPHETS.bmp~
+COPY ~thepicturestandard\TDD\QUAD3S.bmp~           ~override\QUAD3S.bmp~
+COPY ~thepicturestandard\TDD\RAVENM.bmp~           ~override\RAVENM.bmp~
+COPY ~thepicturestandard\TDD\RAVENS.bmp~           ~override\RAVENS.bmp~
+COPY ~thepicturestandard\ATDD\RENALS.bmp~          ~override\RENALS.bmp~
+COPY ~thepicturestandard\TDD\SHADS.bmp~            ~override\SHADS.bmp~
+COPY ~thepicturestandard\ATDD\TARTARS.bmp~         ~override\TARTARS.bmp~
+COPY ~thepicturestandard\TDD\TETHXS.bmp~           ~override\TETHXS.bmp~
+COPY ~thepicturestandard\TDD\tge_066l.bmp~         ~override\tge_066l.bmp~
+COPY ~thepicturestandard\TDD\TGE_109S.bmp~         ~override\TGE_109S.bmp~
+COPY ~thepicturestandard\ATDD\VESINEL.bmp~         ~override\VESINEL.bmp~
+COPY ~thepicturestandard\ATDD\VESINES.bmp~         ~override\VESINES.bmp~
+COPY ~thepicturestandard\ATDD\WM152S.bmp~          ~override\WM152S.bmp~
+COPY ~thepicturestandard\TDD\WM484L.bmp~           ~override\WM484L.bmp~
+COPY ~thepicturestandard\TDD\WM484S.bmp~           ~override\WM484S.bmp~
+COPY ~thepicturestandard\TDD\WM489L.bmp~           ~override\WM489L.bmp~
+COPY ~thepicturestandard\TDD\WM489S.bmp~           ~override\WM489S.bmp~
+COPY ~thepicturestandard\ATDD\X1ORCS.bmp~          ~override\X1ORCS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [TowerOfDeception]?
+// [I]nstall, [S]kip or [Q]uit
+
+BEGIN @210 // TowerOfDeception
+DESIGNATED 21000
+
+COPY ~thepicturestandard\TOD\VA#GULI.bmp~            ~override\VA#GULIM.bmp~
+COPY ~thepicturestandard\TOD\VA#GULI.bmp~            ~override\VA#GULIS.bmp~
+COPY ~thepicturestandard\TOD\va#tian.bmp~            ~override\va#tianL.bmp~
+COPY ~thepicturestandard\TOD\va#tian.bmp~            ~override\va#tianS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [SiegeofDragonspear]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Alternative
+
+
+BEGIN @22000 // Vanilla (this text will be for the option itself)
+DESIGNATED 22000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @220 // SiegeofDragonspear (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\SoD\bdimoen.bmp~           ~override\bdimoenL.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~           ~override\bdimoenM.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~           ~override\bdimoenS.bmp~
+COPY ~thepicturestandard\SoD\BDORCF1.bmp~           ~override\BDORCF1L.bmp~
+COPY ~thepicturestandard\SoD\BDORCF1.bmp~           ~override\BDORCF1M.bmp~
+COPY ~thepicturestandard\SoD\BDORCM1.bmp~           ~override\BDORCM1L.bmp~
+COPY ~thepicturestandard\SoD\BDORCM1.bmp~           ~override\BDORCM1M.bmp~
+COPY ~thepicturestandard\SoD\BDSHAF1.bmp~           ~override\BDSHAF1L.bmp~
+COPY ~thepicturestandard\SoD\BDSHAF1.bmp~           ~override\BDSHAF1M.bmp~
+COPY ~thepicturestandard\SoD\BDSHAM1.bmp~           ~override\BDSHAM1L.bmp~
+COPY ~thepicturestandard\SoD\BDSHAM1.bmp~           ~override\BDSHAM1M.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~           ~override\bdviconL.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~           ~override\bdviconM.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~           ~override\bdviconS.bmp~
+COPY ~thepicturestandard\SoD\Caelar.bmp~            ~override\CaelarL.bmp~
+COPY ~thepicturestandard\SoD\Caelar.bmp~            ~override\CaelarM.bmp~
+COPY ~thepicturestandard\SoD\Caelar.bmp~            ~override\CaelarS.bmp~
+COPY ~thepicturestandard\SoD\dsclara.bmp~           ~override\dsclaraL.bmp~
+COPY ~thepicturestandard\SoD\dsclara.bmp~           ~override\dsclaraM.bmp~
+COPY ~thepicturestandard\SoD\dsclara.bmp~           ~override\dsclaraS.bmp~
+COPY ~thepicturestandard\SoD\glint.bmp~             ~override\glintL.bmp~
+COPY ~thepicturestandard\SoD\glint.bmp~             ~override\glintM.bmp~
+COPY ~thepicturestandard\SoD\glint.bmp~             ~override\glintS.bmp~
+COPY ~thepicturestandard\SoD\hephern.bmp~           ~override\hephernL.bmp~
+COPY ~thepicturestandard\SoD\hephern.bmp~           ~override\hephernM.bmp~
+COPY ~thepicturestandard\SoD\hephern.bmp~           ~override\hephernS.bmp~
+COPY ~thepicturestandard\SoD\Mkhiin.bmp~            ~override\MkhiinL.bmp~
+COPY ~thepicturestandard\SoD\Mkhiin.bmp~            ~override\MkhiinM.bmp~
+COPY ~thepicturestandard\SoD\Mkhiin.bmp~            ~override\MkhiinS.bmp~
+COPY ~thepicturestandard\SoD\NOPORTL.bmp~           ~override\NOPORTLL.bmp~
+COPY ~thepicturestandard\SoD\NOPORTL.bmp~           ~override\NOPORTLM.bmp~
+COPY ~thepicturestandard\SoD\NOPORTL.bmp~           ~override\NOPORTLS.bmp~
+COPY ~thepicturestandard\SoD\schael.bmp~            ~override\schaelL.bmp~
+COPY ~thepicturestandard\SoD\schael.bmp~            ~override\schaelM.bmp~
+COPY ~thepicturestandard\SoD\schael.bmp~            ~override\schaelS.bmp~
+COPY ~thepicturestandard\SoD\unnamed.bmp~           ~override\unnamedL.bmp~
+COPY ~thepicturestandard\SoD\unnamed.bmp~           ~override\unnamedM.bmp~
+COPY ~thepicturestandard\SoD\unnamed.bmp~           ~override\unnamedS.bmp~
+COPY ~thepicturestandard\SoD\voghiln.bmp~           ~override\voghilnL.bmp~
+COPY ~thepicturestandard\SoD\voghiln.bmp~           ~override\voghilnM.bmp~
+COPY ~thepicturestandard\SoD\voghiln.bmp~           ~override\voghilnS.bmp~
+
+BEGIN @22500 // Alternative (this text will be for the option itself)
+DESIGNATED 22500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @220 // SiegeofDragonspear (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\bdimoen.bmp~           ~override\bdimoenL.bmp~
+COPY ~thepicturestandard\AUF\bdimoen.bmp~           ~override\bdimoenM.bmp~
+COPY ~thepicturestandard\AUF\bdimoen.bmp~           ~override\bdimoenS.bmp~
+COPY ~thepicturestandard\SoD\BDORCF1.bmp~           ~override\BDORCF1L.bmp~
+COPY ~thepicturestandard\SoD\BDORCF1.bmp~           ~override\BDORCF1M.bmp~
+COPY ~thepicturestandard\SoD\BDORCM1.bmp~           ~override\BDORCM1L.bmp~
+COPY ~thepicturestandard\SoD\BDORCM1.bmp~           ~override\BDORCM1M.bmp~
+COPY ~thepicturestandard\SoD\BDSHAF1.bmp~           ~override\BDSHAF1L.bmp~
+COPY ~thepicturestandard\SoD\BDSHAF1.bmp~           ~override\BDSHAF1M.bmp~
+COPY ~thepicturestandard\SoD\BDSHAM1.bmp~           ~override\BDSHAM1L.bmp~
+COPY ~thepicturestandard\SoD\BDSHAM1.bmp~           ~override\BDSHAM1M.bmp~
+COPY ~thepicturestandard\AUF\ViconiaL.bmp~          ~override\bdviconL.bmp~
+COPY ~thepicturestandard\AUF\Viconia.bmp~           ~override\bdviconM.bmp~
+COPY ~thepicturestandard\AUF\Viconia.bmp~           ~override\bdviconS.bmp~
+COPY ~thepicturestandard\SoD\Caelar.bmp~            ~override\CaelarL.bmp~
+COPY ~thepicturestandard\SoD\Caelar.bmp~            ~override\CaelarM.bmp~
+COPY ~thepicturestandard\SoD\Caelar.bmp~            ~override\CaelarS.bmp~
+COPY ~thepicturestandard\SoD\dsclara.bmp~           ~override\dsclaraL.bmp~
+COPY ~thepicturestandard\SoD\dsclara.bmp~           ~override\dsclaraM.bmp~
+COPY ~thepicturestandard\SoD\dsclara.bmp~           ~override\dsclaraS.bmp~
+COPY ~thepicturestandard\ASoD\glint.bmp~            ~override\glintL.bmp~
+COPY ~thepicturestandard\ASoD\glint.bmp~            ~override\glintM.bmp~
+COPY ~thepicturestandard\ASoD\glint.bmp~            ~override\glintS.bmp~
+COPY ~thepicturestandard\SoD\hephern.bmp~           ~override\hephernL.bmp~
+COPY ~thepicturestandard\SoD\hephern.bmp~           ~override\hephernM.bmp~
+COPY ~thepicturestandard\SoD\hephern.bmp~           ~override\hephernS.bmp~
+COPY ~thepicturestandard\ASoD\Mkhiin.bmp~           ~override\MkhiinL.bmp~
+COPY ~thepicturestandard\ASoD\Mkhiin.bmp~           ~override\MkhiinM.bmp~
+COPY ~thepicturestandard\ASoD\Mkhiin.bmp~           ~override\MkhiinS.bmp~
+COPY ~thepicturestandard\SoD\NOPORTL.bmp~           ~override\NOPORTLL.bmp~
+COPY ~thepicturestandard\SoD\NOPORTL.bmp~           ~override\NOPORTLM.bmp~
+COPY ~thepicturestandard\SoD\NOPORTL.bmp~           ~override\NOPORTLS.bmp~
+COPY ~thepicturestandard\ASoD\schaell.bmp~           ~override\schaelL.bmp~
+COPY ~thepicturestandard\ASoD\schael.bmp~           ~override\schaelM.bmp~
+COPY ~thepicturestandard\ASoD\schael.bmp~           ~override\schaelS.bmp~
+COPY ~thepicturestandard\ASoD\unnamed.bmp~          ~override\unnamedL.bmp~
+COPY ~thepicturestandard\ASoD\unnamed.bmp~          ~override\unnamedM.bmp~
+COPY ~thepicturestandard\ASoD\unnamed.bmp~          ~override\unnamedS.bmp~
+COPY ~thepicturestandard\ASoD\voghiln.bmp~          ~override\voghilnL.bmp~
+COPY ~thepicturestandard\ASoD\voghiln.bmp~          ~override\voghilnM.bmp~
+COPY ~thepicturestandard\ASoD\voghiln.bmp~          ~override\voghilnS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Tortured Souls]?
+// [N]o, [Q]uit, or choose one:
+//  1] Vanilla
+//  2] Alternative
+
+BEGIN @23000 // Vanilla (this text will be for the option itself)
+DESIGNATED 23000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @230 // TorturedSouls (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\TS\Aino.bmp~               ~override\AinoL.bmp~
+COPY ~thepicturestandard\TS\Aino.bmp~               ~override\AinoS.bmp~
+COPY ~thepicturestandard\TS\BMageS.bmp~             ~override\BMageS.bmp~
+COPY ~thepicturestandard\TS\Bodhi.bmp~              ~override\BodhiL.bmp~
+COPY ~thepicturestandard\TS\Bodhi.bmp~              ~override\BodhiS.bmp~
+COPY ~thepicturestandard\TS\Boo.bmp~                ~override\BooL.bmp~
+COPY ~thepicturestandard\TS\Boo.bmp~                ~override\BooS.bmp~
+COPY ~thepicturestandard\TS\Kachi.bmp~              ~override\KachiM.bmp~
+COPY ~thepicturestandard\TS\Kachi.bmp~              ~override\KachiS.bmp~
+COPY ~thepicturestandard\TS\MasakiS.bmp~            ~override\MasakiS.bmp~
+COPY ~thepicturestandard\TS\NajokiS.bmp~            ~override\NajokiS.bmp~
+COPY ~thepicturestandard\TS\NajokiAS.bmp~           ~override\NajokiAS.bmp~
+COPY ~thepicturestandard\TS\nsime.bmp~              ~override\nsimeL.bmp~
+COPY ~thepicturestandard\TS\nsime.bmp~              ~override\nsimeM.bmp~
+COPY ~thepicturestandard\TS\nsime.bmp~              ~override\nsimeS.bmp~
+COPY ~thepicturestandard\TS\otako.bmp~              ~override\otakoL.bmp~
+COPY ~thepicturestandard\TS\otako.bmp~              ~override\otakoS.bmp~
+
+BEGIN @23500 // Alternative (this text will be for the option itself)
+DESIGNATED 23500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @230 // TorturedSouls (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\ATS\Aino.bmp~              ~override\AinoL.bmp~
+COPY ~thepicturestandard\ATS\Aino.bmp~              ~override\AinoS.bmp~
+COPY ~thepicturestandard\ATS\BMageS.bmp~            ~override\BMageS.bmp~
+COPY ~thepicturestandard\TS\Bodhi.bmp~              ~override\BodhiL.bmp~
+COPY ~thepicturestandard\TS\Bodhi.bmp~              ~override\BodhiS.bmp~
+COPY ~thepicturestandard\TS\Boo.bmp~                ~override\BooL.bmp~
+COPY ~thepicturestandard\TS\Boo.bmp~                ~override\BooS.bmp~
+COPY ~thepicturestandard\ATS\Kachi.bmp~             ~override\KachiL.bmp~
+COPY ~thepicturestandard\ATS\Kachi.bmp~             ~override\KachiM.bmp~
+COPY ~thepicturestandard\ATS\Kachi.bmp~             ~override\KachiS.bmp~
+COPY ~thepicturestandard\ATS\MasakiS.bmp~           ~override\MasakiS.bmp~
+COPY ~thepicturestandard\TS\NajokiS.bmp~            ~override\NajokiS.bmp~
+COPY ~thepicturestandard\TS\NajokiAS.bmp~           ~override\NajokiAS.bmp~
+COPY ~thepicturestandard\TS\nsime.bmp~              ~override\nsimeL.bmp~
+COPY ~thepicturestandard\TS\nsime.bmp~              ~override\nsimeM.bmp~
+COPY ~thepicturestandard\TS\nsime.bmp~              ~override\nsimeS.bmp~
+COPY ~thepicturestandard\TS\otako.bmp~              ~override\otakoL.bmp~
+COPY ~thepicturestandard\TS\otako.bmp~              ~override\otakoS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [StandardizedEdwin]?
+// [N]o, [Q]uit, or choose one:
+// 1] BG1Edwin
+// 2] BG2Edwin
+// 3] Variant A
+// 4] Variant B
+
+
+BEGIN @80000 // BG1Edwin (this text will be for the option itself)
+DESIGNATED 80000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @800 // StandardizedEdwin (this will be the header text for the subcomponent group and must match other subcomponents)
+ 
+COPY ~thepicturestandard\Followers\EDWIN.bmp~            ~override\EDWINL.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~            ~override\EDWINM.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~            ~override\EDWINS.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~            ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~            ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\Followers\EDWIN.bmp~            ~override\NEDWINS.bmp~
+
+BEGIN @80300 // BG2Edwin (this text will be for the option itself)
+DESIGNATED 80300 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @800 // StandardizedEdwin (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~                ~override\EDWINL.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~                ~override\EDWINM.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~                ~override\EDWINS.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~                ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~                ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\Followers\NEDWIN.bmp~                ~override\NEDWINS.bmp~
+
+BEGIN @80600 // Variant A (this text will be for the option itself)
+DESIGNATED 80600 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @800 // StandardizedEdwin (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                       ~override\EDWINL.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                       ~override\EDWINM.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                       ~override\EDWINS.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                       ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                       ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\AUF\EDWIN.bmp~                       ~override\NEDWINS.bmp~
+
+BEGIN @80900 // Variant B (this text will be for the option itself)
+DESIGNATED 80900 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @800 // StandardizedEdwin (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                       ~override\EDWINL.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                       ~override\EDWINM.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                       ~override\EDWINS.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                       ~override\NEDWINL.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                       ~override\NEDWINM.bmp~
+COPY ~thepicturestandard\BUF\EDWIN.bmp~                       ~override\NEDWINS.bmp~
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [Standardized Iomen]?
+// [N]o, [Q]uit, or choose one:
+// 1] BG1Iomen
+// 2] BG2Iomen
+// 3] SoDIomen
+// 4] VariantA
+// 5] VariantB
+// 6] VariantMix
+
+
+BEGIN @81000 // BG1Iomen (this text will be for the option itself)
+DESIGNATED 81000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @810 // StandardizedIomen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\IMOENL.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\IMOENM.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\IMOENS.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\NIMOENS.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\bdimoenl.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\bdimoenm.bmp~
+COPY ~thepicturestandard\Followers\IMOEN.bmp~                 ~override\bdimoens.bmp~
+
+BEGIN @81100 // BG2Iomen (this text will be for the option itself)
+DESIGNATED 81100 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @810 // StandardizedIomen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\IMOENL.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\IMOENM.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\IMOENS.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\NIMOENS.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\bdimoenl.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\bdimoenm.bmp~
+COPY ~thepicturestandard\Followers\NIMOEN.bmp~                ~override\bdimoens.bmp~
+
+BEGIN @81200 // SoDIomen (this text will be for the option itself)
+DESIGNATED 81200 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @810 // StandardizedIomen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\IMOENL.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\IMOENM.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\IMOENS.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\NIMOENS.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\bdimoenl.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\bdimoenm.bmp~
+COPY ~thepicturestandard\SoD\bdimoen.bmp~                       ~override\bdimoens.bmp~
+
+BEGIN @81300 // VariantA (this text will be for the option itself)
+DESIGNATED 81300 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @810 // StandardizedIomen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\IMOENL.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\IMOENM.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\IMOENS.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\NIMOENS.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\bdimoenl.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\bdimoenm.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\bdimoens.bmp~
+
+BEGIN @81400 // VariantB (this text will be for the option itself)
+DESIGNATED 81400 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @810 // StandardizedIomen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\IMOENL.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\IMOENM.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\IMOENS.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\NIMOENS.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\bdimoenl.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\bdimoenm.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\bdimoens.bmp~
+
+
+BEGIN @81500 // VariantMix (this text will be for the option itself)
+DESIGNATED 81500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @810 // StandardizedIomen (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\IMOENL.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\IMOENM.bmp~
+COPY ~thepicturestandard\AUF\IMOEN.bmp~                       ~override\IMOENS.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\NIMOENL.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\NIMOENM.bmp~
+COPY ~thepicturestandard\AUF\NIMOEN.bmp~                      ~override\NIMOENS.bmp~
+COPY ~thepicturestandard\AUF\BDIMOEN.bmp~                     ~override\bdimoenl.bmp~
+COPY ~thepicturestandard\AUF\BDIMOEN.bmp~                     ~override\bdimoenm.bmp~
+COPY ~thepicturestandard\AUF\BDIMOEN.bmp~                     ~override\bdimoens.bmp~
+
+
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [StandardizedJaheira]?
+// [N]o, [Q]uit, or choose one:
+// 1] BG1Jaheira
+// 2] BG2Jaheira
+// 3] Variant
+
+
+BEGIN @82000 // BG1Jaheira (this text will be for the option itself)
+DESIGNATED 82000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @820 // StandardizedJaheira (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~              ~override\JAHEIRAL.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~              ~override\JAHEIRAM.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~              ~override\JAHEIRAS.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~              ~override\NJAHEIRL.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~              ~override\NJAHEIRM.bmp~
+COPY ~thepicturestandard\Followers\JAHEIRA.bmp~              ~override\NJAHEIRS.bmp~
+
+BEGIN @82300 // BG2Jaheira (this text will be for the option itself)
+DESIGNATED 82300 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @820 // StandardizedJaheira (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~              ~override\JAHEIRAL.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~              ~override\JAHEIRAM.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~              ~override\JAHEIRAS.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~              ~override\NJAHEIRL.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~              ~override\NJAHEIRM.bmp~
+COPY ~thepicturestandard\Followers\NJAHEIR.bmp~              ~override\NJAHEIRS.bmp~
+
+BEGIN @82600 // Variant (this text will be for the option itself)
+DESIGNATED 82600 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @820 // Standardized Jaheira (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~                    ~override\JAHEIRAL.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~                    ~override\JAHEIRAM.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~                    ~override\JAHEIRAS.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~                    ~override\NJAHEIRL.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~                    ~override\NJAHEIRM.bmp~
+COPY ~thepicturestandard\AUF\JAHEIRA.bmp~                    ~override\NJAHEIRS.bmp~
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [StandardizedMinsc]?
+// [N]o, [Q]uit, or choose one:
+// 1] BG1Minsc
+// 2] BG2Minsc
+// 3] Variant
+
+
+BEGIN @83000 // BG1Minsc (this text will be for the option itself)
+DESIGNATED 83000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @830 // StandardizedMinsc (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\MINSC.bmp~                ~override\MINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~                ~override\MINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~                ~override\MINSCS.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~                ~override\NMINSCL.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~                ~override\NMINSCM.bmp~
+COPY ~thepicturestandard\Followers\MINSC.bmp~                ~override\NMINSCS.bmp~
+
+BEGIN @83500 // BG2Minsc (this text will be for the option itself)
+DESIGNATED 83500 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @830 // StandardizedMinsc (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\NMINSC.bmp~               ~override\MINSCL.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~               ~override\MINSCM.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~               ~override\MINSCS.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~               ~override\NMINSCL.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~               ~override\NMINSCM.bmp~
+COPY ~thepicturestandard\Followers\NMINSC.bmp~               ~override\NMINSCS.bmp~
+
+//=================================================================================================
+//=================================================================================================
+
+// Install Component [StandardizedViconia]?
+// [N]o, [Q]uit, or choose one:
+// 1] BG1Viconia
+// 2] BG2Viconia
+// 3] Variant A
+// 4] Variant B
+
+
+BEGIN @84000 // BG1Viconia (this text will be for the option itself)
+DESIGNATED 84000 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @840 // StandardizedViconia (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\VICONIAS.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\NVICONL.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\NVICONM.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\NVICONS.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\bdviconl.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\bdviconm.bmp~
+COPY ~thepicturestandard\Followers\VICONIA.bmp~              ~override\bdvicons.bmp~
+
+BEGIN @84100 // BG2Viconia (this text will be for the option itself)
+DESIGNATED 84100 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @840 // StandardizedViconia (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\VICONIAS.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\NVICONL.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\NVICONM.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\NVICONS.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\bdviconl.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\bdviconm.bmp~
+COPY ~thepicturestandard\Followers\NVICON.bmp~               ~override\bdvicons.bmp~
+
+BEGIN @84200 // SoDViconia (this text will be for the option itself)
+DESIGNATED 84200 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @840 // StandardizedViconia (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\VICONIAS.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\NVICONL.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\NVICONM.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\NVICONS.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\bdviconl.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\bdviconm.bmp~
+COPY ~thepicturestandard\SoD\bdvicon.bmp~                       ~override\bdvicons.bmp~
+
+
+BEGIN @84300 // Variant A (this text will be for the option itself)
+DESIGNATED 84300 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @840 // StandardizedViconia (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\AUF\VICONIAL.bmp~                  ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~                   ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~                   ~override\VICONIAS.bmp~
+COPY ~thepicturestandard\AUF\VICONIAL.bmp~                  ~override\NVICONL.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~                   ~override\NVICONM.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~                   ~override\NVICONS.bmp~
+COPY ~thepicturestandard\AUF\VICONIAL.bmp~                  ~override\bdviconl.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~                   ~override\bdviconm.bmp~
+COPY ~thepicturestandard\AUF\VICONIA.bmp~                   ~override\bdvicons.bmp~
+
+BEGIN @84400 // Variant B (this text will be for the option itself)
+DESIGNATED 84400 // set this component number to leave room for adding subcomponents without changing later component numbers
+SUBCOMPONENT @840 // StandardizedViconia (this will be the header text for the subcomponent group and must match other subcomponents)
+
+COPY ~thepicturestandard\BUF\VICONIAL.bmp~                   ~override\VICONIAL.bmp~
+COPY ~thepicturestandard\BUF\VICONIAM.bmp~                   ~override\VICONIAM.bmp~
+COPY ~thepicturestandard\BUF\VICONIAS.bmp~                   ~override\VICONIAS.bmp~
+COPY ~thepicturestandard\BUF\VICONIAL.bmp~                   ~override\NVICONL.bmp~
+COPY ~thepicturestandard\BUF\VICONIAM.bmp~                   ~override\NVICONM.bmp~
+COPY ~thepicturestandard\BUF\VICONIAS.bmp~                   ~override\NVICONS.bmp~
+COPY ~thepicturestandard\BUF\VICONIAL.bmp~                   ~override\bdviconl.bmp~
+COPY ~thepicturestandard\BUF\VICONIAM.bmp~                   ~override\bdviconm.bmp~
+COPY ~thepicturestandard\BUF\VICONIAS.bmp~                   ~override\bdvicons.bmp~
+
+
+

@@ -1,0 +1,119 @@
+@10=~Main~
+@1000=~Vanilla~
+@1500=~Lore Alternative~
+ 
+@20=~Followers~
+@2000=~Vanilla~
+@2300=~Variant A~
+@2600=~Variant B~
+ 
+@30=BG1NPC
+@3000=~Vanilla~
+@3500=~Lore Alternative~
+ 
+@40=~Dark Horizons~
+@4000=~Vanilla~
+@4500=~Lore Alternative~
+ 
+@50=~Drizzt Saga~
+@5000=~Vanilla~
+@5500=~Lore Alternative~
+ 
+@60=~Dark Side of the Sword Coast~
+@6000=~Vanilla~
+@6500=~Lore Alternative~
+ 
+@70=~Eilistraee's Song~
+@7000=~Vanilla~
+@7500=~Lore Alternative~
+ 
+@80=~Innershade~
+@8000=~Vanilla~
+@8500=~Lore Alternative~
+ 
+@90=~I Shall Never Forget~
+@9000=~Vanilla~
+@9500=~Lore Alternative~
+ 
+@100=~Rogue Rebalancing~
+@10000=~Vanilla~
+@10500=~Lore Alternative~
+ 
+@110=~Sellswords~
+@11000=~Vanilla~
+@11500=~Lore Alternative~
+ 
+@120=~Tales Of The Deep Gardens~
+@12000=~Vanilla~
+@12500=~Lore Alternative~
+ 
+@130=~T'was A Slow Boat~
+@13000=~Vanilla~
+@13500=~Lore Alternative~
+ 
+@140=~Finch~
+@14000=~Vanilla~
+@14500=~Alternative~
+ 
+@150=~Gavin~
+@15000=~Vanilla~
+@15500=~Alternative~
+
+@160=~Indira~
+@170=~Isra~
+@180=~Valerie~
+
+@190=~The White Queen~
+@19000=~Vanilla~
+@19500=~Lore Alternative~
+
+@200=~The Darkest Day~
+@20000=~Vanilla~
+@20500=~Lore Alternative~
+
+@210=~Tower of Deception~
+
+@220=~Siege of Dragonspear~
+@22000=~Vanilla~
+@22500=~Lore Alternative~
+
+@230=~Tortured Souls~
+@23000=~Vanilla~
+@23500=~Lore Alternative~
+
+@800=~Standardized Edwin~
+@80000=~BG1 Edwin~
+@80300=~BG2 Edwin~
+@80600=~Variant A~
+@80900=~Variant B~
+
+@810=~Standardized Iomen~
+@81000=~BG1 Iomen~
+@81100=~BG2 Iomen~
+@81200=~SoD Iomen~
+@81300=~Variant A~
+@81400=~Variant B~
+@81500=~Immersive Iomen Variant~
+
+@820=~Standardized Jaheira~
+@82000=~BG1 Jaheira~
+@82300=~BG2 Jaheira~
+@82600=~Variant~
+
+@830=~Standardized Minsc~
+@83000=~BG1 Minsc~
+@83500=~BG2 Minsc~
+
+@840=~Standardized Viconia~
+@84000=~BG1 Viconia~
+@84100=~BG2 Viconia~
+@84200=~SoD Viconia~
+@84300=~Variant A~
+@84400=~Variant B~
+
+
+
+@0=Standardized
+@000=BG1
+@00=BG2
+@00=Variant
